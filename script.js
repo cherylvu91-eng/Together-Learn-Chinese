@@ -1,5 +1,6 @@
 // ============ DATA ============
 let VOCAB = [];
+let DIALOGUES = [];
 
 fetch("data/vocab.json")
   .then((res) => res.json())
@@ -9,9 +10,21 @@ fetch("data/vocab.json")
     setupFlashcards();
   })
   .catch((err) => {
-    console.error("Không tải được data/vocab.json:", err);
+    console.error("Khong tai duoc data/vocab.json:", err);
     document.getElementById("cardGrid").innerHTML =
-      "<p>Không tải được dữ liệu từ vựng. Kiểm tra lại file data/vocab.json.</p>";
+      "<p>Khong tai duoc du lieu tu vung.</p>";
+  });
+
+fetch("data/dialogues.json")
+  .then((res) => res.json())
+  .then((data) => {
+    DIALOGUES = data;
+    renderDialogues();
+  })
+  .catch((err) => {
+    console.error("Khong tai duoc data/dialogues.json:", err);
+    const el = document.getElementById("dialogueList");
+    if (el) el.innerHTML = "<p>Khong tai duoc du lieu cau dam thoai.</p>";
   });
 
 // ============ TAB SWITCHING ============
@@ -27,7 +40,7 @@ tabButtons.forEach((btn) => {
   });
 });
 
-// ============ TAB 1: DANH SÁCH / TÌM KIẾM / LỌC ============
+// ============ TAB 1: DANH SACH / TIM KIEM / LOC ============
 const searchInput = document.getElementById("searchInput");
 const hskFilter = document.getElementById("hskFilter");
 const cardGrid = document.getElementById("cardGrid");
@@ -54,25 +67,24 @@ function filterVocab() {
 
 function renderList() {
   const filtered = filterVocab();
-  resultCount.textContent = `Tìm thấy ${filtered.length} từ`;
+  resultCount.textContent = "Tim thay " + filtered.length + " tu";
   cardGrid.innerHTML = filtered
-    .map(
-      (w) => `
-    <div class="vocab-card" data-hanzi="${w.hanzi}">
-      ${w.hsk ? `<span class="hsk-badge">HSK ${w.hsk}</span>` : ""}
-      <div class="hanzi">${w.hanzi}</div>
-      <div class="pinyin">${w.pinyin || ""}</div>
-      ${w.hanviet ? `<div class="hanviet">${w.hanviet}</div>` : ""}
-      <div class="nghia">${w.nghia || ""}</div>
-      ${w.loai_tu ? `<span class="loai">${w.loai_tu}</span>` : ""}
-      ${w.vidu ? `<div class="vidu">${w.vidu}</div>` : ""}
-      ${w.audio ? `<button class="audio-btn" data-audio="${w.audio}">🔊 Phát âm</button>` : ""}
-    </div>
-  `
-    )
+    .map(function (w) {
+      return (
+        '<div class="vocab-card" data-hanzi="' + w.hanzi + '">' +
+        (w.hsk ? '<span class="hsk-badge">HSK ' + w.hsk + '</span>' : "") +
+        '<div class="hanzi">' + w.hanzi + '</div>' +
+        '<div class="pinyin">' + (w.pinyin || "") + '</div>' +
+        (w.hanviet ? '<div class="hanviet">' + w.hanviet + '</div>' : "") +
+        '<div class="nghia">' + (w.nghia || "") + '</div>' +
+        (w.loai_tu ? '<span class="loai">' + w.loai_tu + '</span>' : "") +
+        (w.vidu ? '<div class="vidu">' + w.vidu + '</div>' : "") +
+        (w.audio ? '<button class="audio-btn" data-audio="' + w.audio + '">Phat am</button>' : "") +
+        '</div>'
+      );
+    })
     .join("");
 
-  // Click vào thẻ -> mở tab Xem nét chữ với chữ đầu tiên
   document.querySelectorAll(".vocab-card").forEach((card) => {
     card.addEventListener("click", (e) => {
       if (e.target.classList.contains("audio-btn")) return;
@@ -81,7 +93,6 @@ function renderList() {
     });
   });
 
-  // Nút phát âm
   document.querySelectorAll(".audio-btn").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -95,7 +106,7 @@ function playAudio(fileName) {
   const player = document.getElementById("audioPlayer");
   player.src = "assets/audio/" + fileName;
   player.play().catch(() => {
-    alert("Không phát được audio. Kiểm tra lại file trong assets/audio/" + fileName);
+    alert("Khong phat duoc audio: " + fileName);
   });
 }
 
@@ -119,30 +130,29 @@ function setupFlashcards() {
 function buildFlashList() {
   const level = flashHskFilter.value;
   flashList =
-    level === "all" ? [...VOCAB] : VOCAB.filter((w) => String(w.hsk) === level);
+    level === "all" ? VOCAB.slice() : VOCAB.filter((w) => String(w.hsk) === level);
   flashIndex = 0;
   flashShowingBack = false;
 }
 
 function renderFlashcard() {
   if (flashList.length === 0) {
-    flashcardEl.innerHTML = "<p>Không có từ nào ở cấp độ này.</p>";
+    flashcardEl.innerHTML = "<p>Khong co tu nao o cap do nay.</p>";
     flashProgress.textContent = "";
     return;
   }
   const w = flashList[flashIndex];
-  flashProgress.textContent = `${flashIndex + 1} / ${flashList.length}`;
+  flashProgress.textContent = (flashIndex + 1) + " / " + flashList.length;
 
   if (!flashShowingBack) {
-    flashcardEl.innerHTML = `<div class="flashcard-face flashcard-front">
-      <div class="flash-hanzi">${w.hanzi}</div>
-    </div>`;
+    flashcardEl.innerHTML = '<div class="flashcard-face flashcard-front"><div class="flash-hanzi">' + w.hanzi + '</div></div>';
   } else {
-    flashcardEl.innerHTML = `<div class="flashcard-face flash-back">
-      <div class="flash-hanzi">${w.hanzi}</div>
-      <div class="flash-pinyin">${w.pinyin || ""}</div>
-      <div class="flash-meaning">${w.nghia || ""}</div>
-    </div>`;
+    flashcardEl.innerHTML =
+      '<div class="flashcard-face flash-back">' +
+      '<div class="flash-hanzi">' + w.hanzi + '</div>' +
+      '<div class="flash-pinyin">' + (w.pinyin || "") + '</div>' +
+      '<div class="flash-meaning">' + (w.nghia || "") + '</div>' +
+      '</div>';
   }
 }
 
@@ -175,7 +185,7 @@ flashHskFilter.addEventListener("change", () => {
   renderFlashcard();
 });
 
-// ============ TAB 3: TRẮC NGHIỆM ============
+// ============ TAB 3: TRAC NGHIEM ============
 const quizHskFilter = document.getElementById("quizHskFilter");
 const quizArea = document.getElementById("quizArea");
 const quizScoreEl = document.getElementById("quizScore");
@@ -184,10 +194,12 @@ let quizIndex = 0;
 let quizScore = 0;
 
 function shuffle(arr) {
-  const a = [...arr];
+  const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
+    const tmp = a[i];
+    a[i] = a[j];
+    a[j] = tmp;
   }
   return a;
 }
@@ -197,16 +209,18 @@ function buildQuiz() {
   const pool = level === "all" ? VOCAB : VOCAB.filter((w) => String(w.hsk) === level);
 
   if (pool.length < 4) {
-    quizArea.innerHTML = "<p>Cần ít nhất 4 từ ở cấp độ này để làm trắc nghiệm.</p>";
+    quizArea.innerHTML = "<p>Can it nhat 4 tu o cap do nay.</p>";
     quizScoreEl.textContent = "";
     return;
   }
 
-  quizQuestions = shuffle(pool).slice(0, Math.min(10, pool.length)).map((correct) => {
-    const wrongPool = shuffle(pool.filter((w) => w.id !== correct.id)).slice(0, 3);
-    const options = shuffle([correct, ...wrongPool]);
-    return { correct, options };
-  });
+  quizQuestions = shuffle(pool)
+    .slice(0, Math.min(10, pool.length))
+    .map((correct) => {
+      const wrongPool = shuffle(pool.filter((w) => w.id !== correct.id)).slice(0, 3);
+      const options = shuffle([correct].concat(wrongPool));
+      return { correct: correct, options: options };
+    });
 
   quizIndex = 0;
   quizScore = 0;
@@ -215,28 +229,22 @@ function buildQuiz() {
 
 function renderQuizQuestion() {
   if (quizIndex >= quizQuestions.length) {
-    quizArea.innerHTML = `<p style="text-align:center;">Hoàn thành!</p>`;
-    quizScoreEl.textContent = `Kết quả: ${quizScore} / ${quizQuestions.length}`;
+    quizArea.innerHTML = '<p style="text-align:center;">Hoan thanh!</p>';
+    quizScoreEl.textContent = "Ket qua: " + quizScore + " / " + quizQuestions.length;
     return;
   }
 
   const q = quizQuestions[quizIndex];
-  quizScoreEl.textContent = `Câu ${quizIndex + 1} / ${quizQuestions.length} — Điểm: ${quizScore}`;
+  quizScoreEl.textContent = "Cau " + (quizIndex + 1) + " / " + quizQuestions.length + " - Diem: " + quizScore;
 
-  quizArea.innerHTML = `
-    <div class="quiz-question">
-      <div class="hanzi">${q.correct.hanzi}</div>
-      <div class="pinyin">${q.correct.pinyin || ""}</div>
-    </div>
-    <div class="quiz-options">
-      ${q.options
-        .map(
-          (opt, i) =>
-            `<button class="quiz-option" data-id="${opt.id}">${opt.nghia}</button>`
-        )
-        .join("")}
-    </div>
-  `;
+  quizArea.innerHTML =
+    '<div class="quiz-question">' +
+    '<div class="hanzi">' + q.correct.hanzi + '</div>' +
+    '<div class="pinyin">' + (q.correct.pinyin || "") + '</div>' +
+    '</div>' +
+    '<div class="quiz-options">' +
+    q.options.map((opt) => '<button class="quiz-option" data-id="' + opt.id + '">' + opt.nghia + '</button>').join("") +
+    '</div>';
 
   document.querySelectorAll(".quiz-option").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -258,7 +266,7 @@ function renderQuizQuestion() {
 
 document.getElementById("quizStart").addEventListener("click", buildQuiz);
 
-// ============ TAB 4: HANZI WRITER (XEM NÉT CHỮ) ============
+// ============ TAB 4: HANZI WRITER (XEM NET CHU) ============
 const writerInput = document.getElementById("writerInput");
 const writerTarget = document.getElementById("writerTarget");
 
@@ -288,10 +296,10 @@ function drawHanzi(hanzi) {
       padding: 10,
       showOutline: true,
       strokeAnimationSpeed: 1,
-      delayBetweenStrokes: 300,
+      delayBetweenStrokes: 300
     }).animateCharacter();
   } catch (e) {
-    writerTarget.innerHTML = "<p>Không tìm thấy dữ liệu nét chữ cho ký tự này.</p>";
+    writerTarget.innerHTML = "<p>Khong tim thay du lieu net chu cho ky tu nay.</p>";
   }
 }
 
@@ -302,3 +310,53 @@ document.getElementById("writerBtn").addEventListener("click", () => {
 writerInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") drawHanzi(writerInput.value);
 });
+
+// ============ TAB 5: CAU DAM THOAI ============
+const dialogueSearchInput = document.getElementById("dialogueSearchInput");
+const dialogueHskFilter = document.getElementById("dialogueHskFilter");
+const dialogueList = document.getElementById("dialogueList");
+const dialogueResultCount = document.getElementById("dialogueResultCount");
+
+function filterDialogues() {
+  const keyword = normalize(dialogueSearchInput.value);
+  const level = dialogueHskFilter.value;
+
+  return DIALOGUES.filter((d) => {
+    const matchLevel = level === "all" || String(d.hsk) === level;
+    const matchKeyword =
+      !keyword ||
+      normalize(d.hanzi).includes(keyword) ||
+      normalize(d.pinyin).includes(keyword) ||
+      normalize(d.nghia).includes(keyword);
+    return matchLevel && matchKeyword;
+  });
+}
+
+function renderDialogues() {
+  if (!dialogueList) return;
+  const filtered = filterDialogues();
+  dialogueResultCount.textContent = "Tim thay " + filtered.length + " cau";
+  dialogueList.innerHTML = filtered
+    .map(function (d) {
+      return (
+        '<div class="dialogue-card">' +
+        (d.hsk ? '<span class="hsk-badge">HSK ' + d.hsk + '</span>' : "") +
+        '<div class="d-hanzi">' + d.hanzi + '</div>' +
+        '<div class="d-pinyin">' + (d.pinyin || "") + '</div>' +
+        '<div class="d-nghia">' + (d.nghia || "") + '</div>' +
+        (d.related_word ? '<div class="d-related">Tu vung lien quan: ' + d.related_word + '</div>' : "") +
+        (d.audio ? '<button class="audio-btn" data-audio="' + d.audio + '">Phat am</button>' : "") +
+        '</div>'
+      );
+    })
+    .join("");
+
+  dialogueList.querySelectorAll(".audio-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      playAudio(btn.dataset.audio);
+    });
+  });
+}
+
+if (dialogueSearchInput) dialogueSearchInput.addEventListener("input", renderDialogues);
+if (dialogueHskFilter) dialogueHskFilter.addEventListener("change", renderDialogues);

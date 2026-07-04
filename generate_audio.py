@@ -1,38 +1,33 @@
 """
-Tool tạo file audio mp3 (giọng đọc tiếng Trung chuẩn) từ danh sách câu/từ,
-dùng Google Cloud Text-to-Speech.
+Tool tao file audio mp3 (giong doc tieng Trung) tu danh sach cau/tu vung,
+dung gTTS (Google Text-to-Speech mien phi, khong can API key, khong can tai khoan).
 
-CHUẨN BỊ (chỉ làm 1 lần):
-1. Tạo tài khoản Google Cloud (miễn phí): https://console.cloud.google.com
-2. Bật API "Cloud Text-to-Speech API" cho project của bạn.
-3. Tạo Service Account -> tải file JSON key về máy (vd: gcp-key.json).
-4. Cài thư viện:
-     pip install google-cloud-texttospeech
-5. Thiết lập biến môi trường trỏ tới file key trước khi chạy script:
-   - Windows (Command Prompt):
-       set GOOGLE_APPLICATION_CREDENTIALS=duong_dan\gcp-key.json
-   - Windows (PowerShell):
-       $env:GOOGLE_APPLICATION_CREDENTIALS="duong_dan\gcp-key.json"
+CHUAN BI (chi lam 1 lan):
+    pip install gTTS
 
-CÁCH DÙNG:
-1. Chuẩn bị 1 file text (.txt) hoặc dùng thẳng data/vocab.json / data/dialogues.json.
-   - Nếu dùng file .txt: mỗi dòng là 1 câu/từ cần đọc, KHÔNG cần đặt tên file mp3
-     (script sẽ tự đặt tên theo số thứ tự dòng, hoặc theo nội dung nếu ngắn).
-2. Chạy lệnh:
-     python generate_audio.py --input cau_can_doc.txt --outdir assets/audio
-   Hoặc tạo audio cho toàn bộ từ vựng:
-     python generate_audio.py --json data/vocab.json --field hanzi --outdir assets/audio
-   Hoặc tạo audio cho toàn bộ câu đàm thoại:
+CACH DUNG:
+1. Tao audio cho toan bo cau dam thoai:
      python generate_audio.py --json data/dialogues.json --field hanzi --outdir assets/audio
 
-3. Script sẽ tự bỏ qua các câu đã có file mp3 rồi (tránh tạo lại tốn phí/thời gian).
-4. Sau khi chạy xong, mở lại file Excel (vocab_data.xlsx) và điền tên file mp3
-   tương ứng vào cột "Audio" cho từng dòng, rồi chạy lại convert_excel_to_json.py.
+2. Tao audio cho toan bo tu vung:
+     python generate_audio.py --json data/vocab.json --field hanzi --outdir assets/audio
 
-LƯU Ý CHI PHÍ:
-Google Cloud TTS có gói miễn phí 1 triệu ký tự/tháng (giọng WaveNet) hoặc
-4 triệu ký tự/tháng (giọng Standard). Với vài trăm từ/câu ngắn, gần như luôn nằm
-trong hạn mức miễn phí. Kiểm tra giá mới nhất tại: https://cloud.google.com/text-to-speech/pricing
+3. Hoac dung file .txt tuy y, moi dong la 1 cau/tu can doc:
+     python generate_audio.py --input cau_can_doc.txt --outdir assets/audio
+
+4. Script se tu bo qua cau da co file mp3 roi (khong tao lai, tiet kiem thoi gian).
+
+5. Sau khi chay xong, mo file Excel (vocab_data.xlsx hoac vocab_data_hsk2.xlsx)
+   dien ten file mp3 tuong ung vao cot "Audio" cho tung dong, roi chay lai
+   convert_excel_to_json.py de cap nhat vao web.
+
+LUU Y:
+- gTTS can ket noi Internet khi chay (no goi toi server cua Google o che do dich vu mien phi,
+  khac voi Google Cloud TTS phai dang ky tai khoan/API key).
+- Chat luong giong doc on, dam bao ro rang, phu hop cho hoc tap; khong tu nhien bang
+  giong WaveNet cua Google Cloud TTS tra phi, nhung mien phi hoan toan va de dung ngay.
+- Neu can dung nhieu (hang nghin cau), Google co the tam thoi chan do goi qua nhieu/qua nhanh.
+  Neu gap loi lien tuc, doi vai phut roi chay lai.
 """
 
 import argparse
@@ -40,14 +35,13 @@ import json
 import os
 import re
 import sys
-import unicodedata
+import time
 
 
-def slugify(text: str, max_len: int = 40) -> str:
-    """Chuyển văn bản thành tên file an toàn (bỏ dấu, ký tự đặc biệt)."""
+def slugify(text, max_len=40):
+    """Chuyen van ban thanh ten file an toan (giu chu Han, bo ky tu dac biet)."""
     text = text.strip()
-    # Giữ lại chữ Hán + chữ cái/số, thay khoảng trắng và ký tự khác bằng _
-    text = re.sub(r"[^\w一-鿿]+", "_", text)
+    text = re.sub(r"[^\w\u4e00-\u9fff]+", "_", text)
     text = text.strip("_")
     if not text:
         text = "audio"
@@ -71,50 +65,24 @@ def load_sentences_from_json(path, field):
     return sentences
 
 
-def synthesize(client, texttospeech, text: str, voice_name: str, speaking_rate: float):
-    input_text = texttospeech.SynthesisInput(text=text)
-    voice = texttospeech.VoiceSelectionParams(
-        language_code="cmn-CN",
-        name=voice_name,
-    )
-    audio_config = texttospeech.AudioConfig(
-        audio_encoding=texttospeech.AudioEncoding.MP3,
-        speaking_rate=speaking_rate,
-    )
-    response = client.synthesize_speech(
-        input=input_text, voice=voice, audio_config=audio_config
-    )
-    return response.audio_content
-
-
 def main():
-    parser = argparse.ArgumentParser(description="Tạo file mp3 giọng đọc tiếng Trung bằng Google Cloud TTS")
-    parser.add_argument("--input", help="File .txt, mỗi dòng 1 câu cần đọc")
-    parser.add_argument("--json", help="File .json (vd data/vocab.json hoặc data/dialogues.json)")
-    parser.add_argument("--field", default="hanzi", help="Tên trường chứa chữ Hán trong file JSON (mặc định: hanzi)")
-    parser.add_argument("--outdir", default="assets/audio", help="Thư mục lưu file mp3 (mặc định: assets/audio)")
-    parser.add_argument(
-        "--voice",
-        default="cmn-CN-Wavenet-A",
-        help="Tên giọng đọc Google Cloud TTS. Một số lựa chọn phổ biến: "
-        "cmn-CN-Wavenet-A (nữ), cmn-CN-Wavenet-B (nam), cmn-CN-Wavenet-C (nam), cmn-CN-Wavenet-D (nữ)",
-    )
-    parser.add_argument("--rate", type=float, default=0.9, help="Tốc độ đọc, 1.0 = bình thường, 0.9 = chậm hơn 1 chút (mặc định: 0.9)")
+    parser = argparse.ArgumentParser(description="Tao file mp3 giong doc tieng Trung bang gTTS (mien phi)")
+    parser.add_argument("--input", help="File .txt, moi dong 1 cau can doc")
+    parser.add_argument("--json", help="File .json (vd data/vocab.json hoac data/dialogues.json)")
+    parser.add_argument("--field", default="hanzi", help="Ten truong chua chu Han trong file JSON (mac dinh: hanzi)")
+    parser.add_argument("--outdir", default="assets/audio", help="Thu muc luu file mp3 (mac dinh: assets/audio)")
+    parser.add_argument("--slow", action="store_true", help="Doc cham hon binh thuong (tot cho hoc sinh moi hoc)")
+    parser.add_argument("--delay", type=float, default=0.3, help="Thoi gian nghi giua cac lan goi API, giay (mac dinh: 0.3)")
     args = parser.parse_args()
 
     if not args.input and not args.json:
-        print("Cần chỉ định --input file.txt HOẶC --json file.json")
+        print("Can chi dinh --input file.txt HOAC --json file.json")
         sys.exit(1)
 
     try:
-        from google.cloud import texttospeech
+        from gtts import gTTS
     except ImportError:
-        print("Thiếu thư viện. Cài bằng lệnh: pip install google-cloud-texttospeech")
-        sys.exit(1)
-
-    if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"):
-        print("Chưa thiết lập biến môi trường GOOGLE_APPLICATION_CREDENTIALS.")
-        print("Xem hướng dẫn ở đầu file generate_audio.py để thiết lập trước khi chạy.")
+        print("Thieu thu vien. Cai bang lenh: pip install gTTS")
         sys.exit(1)
 
     if args.input:
@@ -123,17 +91,19 @@ def main():
         sentences = load_sentences_from_json(args.json, args.field)
 
     if not sentences:
-        print("Không tìm thấy câu/từ nào để tạo audio.")
+        print("Khong tim thay cau/tu nao de tao audio.")
         sys.exit(1)
 
     os.makedirs(args.outdir, exist_ok=True)
-    client = texttospeech.TextToSpeechClient()
 
     created = 0
     skipped = 0
     failed = []
 
-    for text in sentences:
+    print(f"Chuan bi tao audio cho {len(sentences)} cau/tu, luu vao thu muc: {args.outdir}")
+    print()
+
+    for i, text in enumerate(sentences, start=1):
         filename = slugify(text) + ".mp3"
         filepath = os.path.join(args.outdir, filename)
 
@@ -142,19 +112,21 @@ def main():
             continue
 
         try:
-            audio_content = synthesize(client, texttospeech, text, args.voice, args.rate)
-            with open(filepath, "wb") as out:
-                out.write(audio_content)
+            tts = gTTS(text=text, lang="zh-CN", slow=args.slow)
+            tts.save(filepath)
             created += 1
-            print(f"Đã tạo: {filename}  <-  {text}")
+            print(f"[{i}/{len(sentences)}] Da tao: {filename}  <-  {text}")
+            time.sleep(args.delay)
         except Exception as e:
             failed.append((text, str(e)))
-            print(f"LỖI với câu '{text}': {e}")
+            print(f"[{i}/{len(sentences)}] LOI voi cau '{text}': {e}")
 
     print()
-    print(f"Hoàn tất. Đã tạo mới: {created} file. Bỏ qua (đã có sẵn): {skipped} file.")
+    print(f"Hoan tat. Da tao moi: {created} file. Bo qua (da co san): {skipped} file.")
     if failed:
-        print(f"Có {len(failed)} câu bị lỗi, xem chi tiết ở trên.")
+        print(f"Co {len(failed)} cau bi loi:")
+        for text, err in failed:
+            print(f"  - {text}: {err}")
 
 
 if __name__ == "__main__":

@@ -18,6 +18,7 @@
   <button class="tab-btn" data-tab="flashcard">Flashcard</button>
   <button class="tab-btn" data-tab="quiz">Trắc nghiệm</button>
   <button class="tab-btn" data-tab="writer">Xem nét chữ</button>
+  <button class="tab-btn" data-tab="dialogue">Câu đàm thoại</button>
 </nav>
 
 <main>
@@ -94,6 +95,24 @@
     </div>
     <div id="writerTarget" class="writer-target"></div>
     <p class="writer-hint">Gõ một chữ Hán rồi bấm "Xem nét chữ", hoặc bấm vào chữ Hán ở tab Danh sách.</p>
+  </section>
+
+  <!-- TAB 5: CÂU ĐÀM THOẠI -->
+  <section id="tab-dialogue" class="tab-content">
+    <div class="toolbar">
+      <input type="text" id="dialogueSearchInput" placeholder="Tìm theo chữ Hán / pinyin / nghĩa...">
+      <select id="dialogueHskFilter">
+        <option value="all">Tất cả cấp độ</option>
+        <option value="1">HSK 1</option>
+        <option value="2">HSK 2</option>
+        <option value="3">HSK 3</option>
+        <option value="4">HSK 4</option>
+        <option value="5">HSK 5</option>
+        <option value="6">HSK 6</option>
+      </select>
+    </div>
+    <p id="dialogueResultCount" class="result-count"></p>
+    <div id="dialogueList" class="dialogue-list"></div>
   </section>
 
 </main>

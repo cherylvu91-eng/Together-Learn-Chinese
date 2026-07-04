@@ -320,6 +320,56 @@ button:hover { opacity: 0.9; }
   font-size: 0.85rem;
 }
 
+/* Câu đàm thoại */
+.dialogue-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dialogue-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.dialogue-card .hsk-badge {
+  float: right;
+  font-size: 0.75rem;
+  background: var(--gold);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.dialogue-card .d-hanzi {
+  font-size: 1.3rem;
+  color: var(--red);
+  font-weight: 600;
+}
+
+.dialogue-card .d-pinyin {
+  color: var(--gold);
+  font-size: 0.95rem;
+  margin: 4px 0;
+}
+
+.dialogue-card .d-nghia {
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.dialogue-card .d-related {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.dialogue-card .audio-btn {
+  margin-top: 8px;
+}
+
 footer {
   text-align: center;
   color: var(--muted);

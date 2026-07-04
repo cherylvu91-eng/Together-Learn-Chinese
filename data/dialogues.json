@@ -1,0 +1,3188 @@
+[
+  {
+    "id": 1,
+    "hanzi": "你忙吗？",
+    "pinyin": "Nǐ máng ma?",
+    "nghia": "Bạn có bận không?",
+    "hsk": 1,
+    "related_word": "你",
+    "audio": "你忙吗.mp3"
+  },
+  {
+    "id": 2,
+    "hanzi": "有你真好。",
+    "pinyin": "Yǒu nǐ zhēn hǎo.",
+    "nghia": "Có bạn thật là tốt.",
+    "hsk": 1,
+    "related_word": "好",
+    "audio": "有你真好.mp3"
+  },
+  {
+    "id": 3,
+    "hanzi": "大家好，我是李培楠。",
+    "pinyin": "Dàjiā hǎo, wǒ shì Lǐ Péinán.",
+    "nghia": "Xin chào mọi người, tôi là Lý Bồi Nam.",
+    "hsk": 1,
+    "related_word": "大家好",
+    "audio": "大家好_我是李培楠.mp3"
+  },
+  {
+    "id": 4,
+    "hanzi": "不太大。",
+    "pinyin": "Bú tài dà.",
+    "nghia": "Không lớn lắm.",
+    "hsk": 1,
+    "related_word": "大",
+    "audio": "不太大.mp3"
+  },
+  {
+    "id": 5,
+    "hanzi": "汉语不难。",
+    "pinyin": "Hànyǔ bù nán.",
+    "nghia": "Tiếng Trung không khó.",
+    "hsk": 1,
+    "related_word": "不",
+    "audio": "汉语不难.mp3"
+  },
+  {
+    "id": 6,
+    "hanzi": "汉语难吗？",
+    "pinyin": "Hànyǔ nán ma?",
+    "nghia": "Tiếng Trung có khó không?",
+    "hsk": 1,
+    "related_word": "难",
+    "audio": "汉语难吗.mp3"
+  },
+  {
+    "id": 7,
+    "hanzi": "他很忙。",
+    "pinyin": "Tā hěn máng.",
+    "nghia": "Anh ấy rất bận.",
+    "hsk": 1,
+    "related_word": "忙",
+    "audio": "他很忙.mp3"
+  },
+  {
+    "id": 8,
+    "hanzi": "我很累。",
+    "pinyin": "Wǒ hěn lèi.",
+    "nghia": "Tôi rất mệt.",
+    "hsk": 1,
+    "related_word": "累",
+    "audio": "我很累.mp3"
+  },
+  {
+    "id": 9,
+    "hanzi": "好冷啊！",
+    "pinyin": "Hǎo lěng a!",
+    "nghia": "Lạnh quá!",
+    "hsk": 1,
+    "related_word": "冷",
+    "audio": "好冷啊.mp3"
+  },
+  {
+    "id": 10,
+    "hanzi": "太热了！",
+    "pinyin": "Tài rè le!",
+    "nghia": "Nóng quá!",
+    "hsk": 1,
+    "related_word": "太",
+    "audio": "太热了.mp3"
+  },
+  {
+    "id": 11,
+    "hanzi": "不太忙。",
+    "pinyin": "Bú tài máng.",
+    "nghia": "Không bận lắm.",
+    "hsk": 1,
+    "related_word": "太",
+    "audio": "不太忙.mp3"
+  },
+  {
+    "id": 12,
+    "hanzi": "我爱奶奶。",
+    "pinyin": "Wǒ ài nǎinai.",
+    "nghia": "Tôi yêu bà nội.",
+    "hsk": 1,
+    "related_word": "奶奶",
+    "audio": "我爱奶奶.mp3"
+  },
+  {
+    "id": 13,
+    "hanzi": "这是我爸爸。",
+    "pinyin": "Zhè shì wǒ bàba.",
+    "nghia": "Đây là bố tôi.",
+    "hsk": 1,
+    "related_word": "爸爸",
+    "audio": "这是我爸爸.mp3"
+  },
+  {
+    "id": 14,
+    "hanzi": "这是我妈妈。",
+    "pinyin": "Zhè shì wǒ māma.",
+    "nghia": "Đây là mẹ tôi.",
+    "hsk": 1,
+    "related_word": "妈妈",
+    "audio": "这是我妈妈.mp3"
+  },
+  {
+    "id": 15,
+    "hanzi": "他是我哥哥。",
+    "pinyin": "Tā shì wǒ gēge.",
+    "nghia": "Anh ấy là anh trai tôi.",
+    "hsk": 1,
+    "related_word": "哥哥",
+    "audio": "他是我哥哥.mp3"
+  },
+  {
+    "id": 16,
+    "hanzi": "我请客！",
+    "pinyin": "Wǒ qǐngkè!",
+    "nghia": "Tôi mời (bao mọi người)!",
+    "hsk": 1,
+    "related_word": "我",
+    "audio": "我请客.mp3"
+  },
+  {
+    "id": 17,
+    "hanzi": "这是我弟弟。",
+    "pinyin": "Zhè shì wǒ dìdi.",
+    "nghia": "Đây là em trai tôi.",
+    "hsk": 1,
+    "related_word": "弟弟",
+    "audio": "这是我弟弟.mp3"
+  },
+  {
+    "id": 18,
+    "hanzi": "你妹妹去北京吗？",
+    "pinyin": "Nǐ mèimei qù Běijīng ma?",
+    "nghia": "Em gái bạn có đi Bắc Kinh không?",
+    "hsk": 1,
+    "related_word": "妹妹",
+    "audio": "你妹妹去北京吗.mp3"
+  },
+  {
+    "id": 19,
+    "hanzi": "你学习英语吗？",
+    "pinyin": "Nǐ xuéxí Yīngyǔ ma?",
+    "nghia": "Bạn có học tiếng Anh không?",
+    "hsk": 1,
+    "related_word": "学习",
+    "audio": "你学习英语吗.mp3"
+  },
+  {
+    "id": 20,
+    "hanzi": "明天见。",
+    "pinyin": "Míngtiān jiàn.",
+    "nghia": "Hẹn gặp lại ngày mai.",
+    "hsk": 1,
+    "related_word": "明天",
+    "audio": "明天见.mp3"
+  },
+  {
+    "id": 21,
+    "hanzi": "我们一会儿见。",
+    "pinyin": "Wǒmen yíhuìr jiàn.",
+    "nghia": "Lát nữa gặp lại nhé.",
+    "hsk": 1,
+    "related_word": "一会儿见",
+    "audio": "我们一会儿见.mp3"
+  },
+  {
+    "id": 22,
+    "hanzi": "老师后天见。",
+    "pinyin": "Lǎoshī hòutiān jiàn.",
+    "nghia": "Hẹn gặp lại thầy/cô vào ngày kia.",
+    "hsk": 1,
+    "related_word": "后天见",
+    "audio": "老师后天见.mp3"
+  },
+  {
+    "id": 23,
+    "hanzi": "老师，再见！",
+    "pinyin": "Lǎoshī, zàijiàn!",
+    "nghia": "Tạm biệt thầy/cô!",
+    "hsk": 1,
+    "related_word": "再见",
+    "audio": "老师_再见.mp3"
+  },
+  {
+    "id": 24,
+    "hanzi": "我的母语是越南语。",
+    "pinyin": "Wǒ de mǔyǔ shì Yuènányǔ.",
+    "nghia": "Tiếng mẹ đẻ của tôi là tiếng Việt.",
+    "hsk": 1,
+    "related_word": "母语",
+    "audio": "我的母语是越南语.mp3"
+  },
+  {
+    "id": 25,
+    "hanzi": "我学越南语。",
+    "pinyin": "Wǒ xué Yuènányǔ.",
+    "nghia": "Tôi học tiếng Việt.",
+    "hsk": 1,
+    "related_word": "越南语",
+    "audio": "我学越南语.mp3"
+  },
+  {
+    "id": 26,
+    "hanzi": "我去邮局寄信。",
+    "pinyin": "Wǒ qù yóujú jì xìn.",
+    "nghia": "Tôi đi bưu điện để gửi thư.",
+    "hsk": 1,
+    "related_word": "寄信",
+    "audio": "我去邮局寄信.mp3"
+  },
+  {
+    "id": 27,
+    "hanzi": "妈妈，我爱你。",
+    "pinyin": "Māma, wǒ ài nǐ.",
+    "nghia": "Mẹ ơi, con yêu mẹ.",
+    "hsk": 2,
+    "related_word": "爱",
+    "audio": "妈妈_我爱你.mp3"
+  },
+  {
+    "id": 28,
+    "hanzi": "我爱吃米饭。",
+    "pinyin": "Wǒ ài chī mǐfàn.",
+    "nghia": "Tôi thích ăn cơm.",
+    "hsk": 2,
+    "related_word": "爱",
+    "audio": "我爱吃米饭.mp3"
+  },
+  {
+    "id": 29,
+    "hanzi": "他儿子今年八岁了。",
+    "pinyin": "Tā érzi jīnnián bā suì le.",
+    "nghia": "Con trai anh ấy năm nay tám tuổi rồi.",
+    "hsk": 2,
+    "related_word": "八",
+    "audio": "他儿子今年八岁了.mp3"
+  },
+  {
+    "id": 30,
+    "hanzi": "我爸爸是医生。",
+    "pinyin": "Wǒ bàba shì yīshēng.",
+    "nghia": "Bố tôi là bác sĩ.",
+    "hsk": 2,
+    "related_word": "爸爸",
+    "audio": "我爸爸是医生.mp3"
+  },
+  {
+    "id": 31,
+    "hanzi": "杯子里有茶。",
+    "pinyin": "Bēizi lǐ yǒu chá.",
+    "nghia": "Trong cốc có trà.",
+    "hsk": 2,
+    "related_word": "杯子",
+    "audio": "杯子里有茶.mp3"
+  },
+  {
+    "id": 32,
+    "hanzi": "我住在北京。",
+    "pinyin": "Wǒ zhù zài Běijīng.",
+    "nghia": "Tôi sống ở Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "北京",
+    "audio": "我住在北京.mp3"
+  },
+  {
+    "id": 33,
+    "hanzi": "桌子上有一本书。",
+    "pinyin": "Zhuōzi shàng yǒu yì běn shū.",
+    "nghia": "Trên bàn có một quyển sách.",
+    "hsk": 2,
+    "related_word": "本",
+    "audio": "桌子上有一本书.mp3"
+  },
+  {
+    "id": 34,
+    "hanzi": "甲：谢谢你！乙：不客气。",
+    "pinyin": "Jiǎ: Xièxie nǐ! Yǐ: Bú kèqi.",
+    "nghia": "A: Cảm ơn bạn! B: Không có gì.",
+    "hsk": 2,
+    "related_word": "不客气",
+    "audio": "甲_谢谢你_乙_不客气.mp3"
+  },
+  {
+    "id": 35,
+    "hanzi": "我不是学生。",
+    "pinyin": "Wǒ bú shì xuésheng.",
+    "nghia": "Tôi không phải là học sinh.",
+    "hsk": 2,
+    "related_word": "不",
+    "audio": "我不是学生.mp3"
+  },
+  {
+    "id": 36,
+    "hanzi": "我去超市买点儿菜。今天我做了三个菜。",
+    "pinyin": "Wǒ qù chāoshì mǎi diǎnr cài. Jīntiān wǒ zuò le sān ge cài.",
+    "nghia": "Tôi đi siêu thị mua ít rau. Hôm nay tôi đã nấu ba món.",
+    "hsk": 2,
+    "related_word": "菜",
+    "audio": "我去超市买点儿菜_今天我做了三个菜.mp3"
+  },
+  {
+    "id": 37,
+    "hanzi": "请喝杯茶吧。",
+    "pinyin": "Qǐng hē bēi chá ba.",
+    "nghia": "Mời bạn uống chén trà.",
+    "hsk": 2,
+    "related_word": "茶",
+    "audio": "请喝杯茶吧.mp3"
+  },
+  {
+    "id": 38,
+    "hanzi": "请吃点儿米饭。",
+    "pinyin": "Qǐng chī diǎnr mǐfàn.",
+    "nghia": "Mời bạn ăn chút cơm.",
+    "hsk": 2,
+    "related_word": "吃",
+    "audio": "请吃点儿米饭.mp3"
+  },
+  {
+    "id": 39,
+    "hanzi": "我们坐出租车去火车站。",
+    "pinyin": "Wǒmen zuò chūzūchē qù huǒchēzhàn.",
+    "nghia": "Chúng tôi đi taxi đến ga tàu.",
+    "hsk": 2,
+    "related_word": "出租车",
+    "audio": "我们坐出租车去火车站.mp3"
+  },
+  {
+    "id": 40,
+    "hanzi": "他在打电话呢。",
+    "pinyin": "Tā zài dǎ diànhuà ne.",
+    "nghia": "Anh ấy đang gọi điện thoại.",
+    "hsk": 2,
+    "related_word": "打电话",
+    "audio": "他在打电话呢.mp3"
+  },
+  {
+    "id": 41,
+    "hanzi": "这个苹果很大。",
+    "pinyin": "Zhège píngguǒ hěn dà.",
+    "nghia": "Quả táo này rất to.",
+    "hsk": 2,
+    "related_word": "大",
+    "audio": "这个苹果很大.mp3"
+  },
+  {
+    "id": 42,
+    "hanzi": "这是我的书。",
+    "pinyin": "Zhè shì wǒ de shū.",
+    "nghia": "Đây là sách của tôi.",
+    "hsk": 2,
+    "related_word": "的",
+    "audio": "这是我的书.mp3"
+  },
+  {
+    "id": 43,
+    "hanzi": "我是坐飞机来中国的。",
+    "pinyin": "Wǒ shì zuò fēijī lái Zhōngguó de.",
+    "nghia": "Tôi đến Trung Quốc bằng máy bay.",
+    "hsk": 2,
+    "related_word": "的",
+    "audio": "我是坐飞机来中国的.mp3"
+  },
+  {
+    "id": 44,
+    "hanzi": "家里没吃的了，我们去买点儿吧。",
+    "pinyin": "Jiā lǐ méi chī de le, wǒmen qù mǎi diǎnr ba.",
+    "nghia": "Nhà hết đồ ăn rồi, chúng ta đi mua chút đi.",
+    "hsk": 2,
+    "related_word": "的",
+    "audio": "家里没吃的了_我们去买点儿吧.mp3"
+  },
+  {
+    "id": 45,
+    "hanzi": "现在是下午3点20。",
+    "pinyin": "Xiànzài shì xiàwǔ sān diǎn èrshí.",
+    "nghia": "Bây giờ là ba giờ hai mươi phút chiều.",
+    "hsk": 2,
+    "related_word": "点",
+    "audio": "现在是下午3点20.mp3"
+  },
+  {
+    "id": 46,
+    "hanzi": "我买了个电脑。",
+    "pinyin": "Wǒ mǎi le ge diànnǎo.",
+    "nghia": "Tôi đã mua một cái máy tính.",
+    "hsk": 2,
+    "related_word": "电脑",
+    "audio": "我买了个电脑.mp3"
+  },
+  {
+    "id": 47,
+    "hanzi": "妈妈在看电视。",
+    "pinyin": "Māma zài kàn diànshì.",
+    "nghia": "Mẹ đang xem tivi.",
+    "hsk": 2,
+    "related_word": "电视",
+    "audio": "妈妈在看电视.mp3"
+  },
+  {
+    "id": 48,
+    "hanzi": "我喜欢看电影。",
+    "pinyin": "Wǒ xǐhuan kàn diànyǐng.",
+    "nghia": "Tôi thích xem phim.",
+    "hsk": 2,
+    "related_word": "电影",
+    "audio": "我喜欢看电影.mp3"
+  },
+  {
+    "id": 49,
+    "hanzi": "我在商店买了很多东西。",
+    "pinyin": "Wǒ zài shāngdiàn mǎi le hěn duō dōngxi.",
+    "nghia": "Tôi đã mua rất nhiều đồ ở cửa hàng.",
+    "hsk": 2,
+    "related_word": "东西",
+    "audio": "我在商店买了很多东西.mp3"
+  },
+  {
+    "id": 50,
+    "hanzi": "我们都来了。我都快吃完了。",
+    "pinyin": "Wǒmen dōu lái le. Wǒ dōu kuài chī wán le.",
+    "nghia": "Chúng tôi đều đã đến rồi. Tôi cũng sắp ăn xong rồi.",
+    "hsk": 2,
+    "related_word": "都",
+    "audio": "我们都来了_我都快吃完了.mp3"
+  },
+  {
+    "id": 51,
+    "hanzi": "你会读这个汉字吗？你喜欢读书吗？",
+    "pinyin": "Nǐ huì dú zhège Hànzì ma? Nǐ xǐhuan dúshū ma?",
+    "nghia": "Bạn biết đọc chữ Hán này không? Bạn có thích đọc sách không?",
+    "hsk": 2,
+    "related_word": "读",
+    "audio": "你会读这个汉字吗_你喜欢读书吗.mp3"
+  },
+  {
+    "id": 52,
+    "hanzi": "甲：对不起。乙：没关系。",
+    "pinyin": "Jiǎ: Duìbuqǐ. Yǐ: Méi guānxi.",
+    "nghia": "A: Xin lỗi. B: Không sao đâu.",
+    "hsk": 2,
+    "related_word": "对不起",
+    "audio": "甲_对不起_乙_没关系.mp3"
+  },
+  {
+    "id": 53,
+    "hanzi": "这里的人很多。你儿子多大了？他跑得多快啊！",
+    "pinyin": "Zhèlǐ de rén hěn duō. Nǐ érzi duō dà le? Tā pǎo de duō kuài a!",
+    "nghia": "Ở đây người rất đông. Con trai bạn bao nhiêu tuổi rồi? Anh ấy chạy nhanh quá!",
+    "hsk": 2,
+    "related_word": "多",
+    "audio": "这里的人很多_你儿子多大了_他跑得多快啊.mp3"
+  },
+  {
+    "id": 54,
+    "hanzi": "你们学校有多少学生？",
+    "pinyin": "Nǐmen xuéxiào yǒu duōshao xuésheng?",
+    "nghia": "Trường bạn có bao nhiêu học sinh?",
+    "hsk": 2,
+    "related_word": "多少",
+    "audio": "你们学校有多少学生.mp3"
+  },
+  {
+    "id": 55,
+    "hanzi": "我儿子三岁了。",
+    "pinyin": "Wǒ érzi sān suì le.",
+    "nghia": "Con trai tôi ba tuổi rồi.",
+    "hsk": 2,
+    "related_word": "儿子",
+    "audio": "我儿子三岁了.mp3"
+  },
+  {
+    "id": 56,
+    "hanzi": "现在十二点了。",
+    "pinyin": "Xiànzài shí'èr diǎn le.",
+    "nghia": "Bây giờ là mười hai giờ rồi.",
+    "hsk": 2,
+    "related_word": "二",
+    "audio": "现在十二点了.mp3"
+  },
+  {
+    "id": 57,
+    "hanzi": "中午我们去饭店吃吧。",
+    "pinyin": "Zhōngwǔ wǒmen qù fàndiàn chī ba.",
+    "nghia": "Trưa nay chúng ta đi ăn ở nhà hàng đi.",
+    "hsk": 2,
+    "related_word": "饭店",
+    "audio": "中午我们去饭店吃吧.mp3"
+  },
+  {
+    "id": 58,
+    "hanzi": "我坐飞机去北京。",
+    "pinyin": "Wǒ zuò fēijī qù Běijīng.",
+    "nghia": "Tôi đi Bắc Kinh bằng máy bay.",
+    "hsk": 2,
+    "related_word": "飞机",
+    "audio": "我坐飞机去北京.mp3"
+  },
+  {
+    "id": 59,
+    "hanzi": "我想休息几分钟。",
+    "pinyin": "Wǒ xiǎng xiūxi jǐ fēnzhōng.",
+    "nghia": "Tôi muốn nghỉ ngơi vài phút.",
+    "hsk": 2,
+    "related_word": "分钟",
+    "audio": "我想休息几分钟.mp3"
+  },
+  {
+    "id": 60,
+    "hanzi": "今天我很高兴。",
+    "pinyin": "Jīntiān wǒ hěn gāoxìng.",
+    "nghia": "Hôm nay tôi rất vui.",
+    "hsk": 2,
+    "related_word": "高兴",
+    "audio": "今天我很高兴.mp3"
+  },
+  {
+    "id": 61,
+    "hanzi": "我是一个学生。",
+    "pinyin": "Wǒ shì yí ge xuésheng.",
+    "nghia": "Tôi là một học sinh.",
+    "hsk": 2,
+    "related_word": "个",
+    "audio": "我是一个学生.mp3"
+  },
+  {
+    "id": 62,
+    "hanzi": "我很喜欢现在的工作。我在医院工作。",
+    "pinyin": "Wǒ hěn xǐhuan xiànzài de gōngzuò. Wǒ zài yīyuàn gōngzuò.",
+    "nghia": "Tôi rất thích công việc hiện tại. Tôi làm việc ở bệnh viện.",
+    "hsk": 2,
+    "related_word": "工作",
+    "audio": "我很喜欢现在的工作_我在医院工作.mp3"
+  },
+  {
+    "id": 63,
+    "hanzi": "他在学习汉语。",
+    "pinyin": "Tā zài xuéxí Hànyǔ.",
+    "nghia": "Anh ấy đang học tiếng Trung.",
+    "hsk": 2,
+    "related_word": "汉语",
+    "audio": "他在学习汉语.mp3"
+  },
+  {
+    "id": 64,
+    "hanzi": "今天天气很好。你听我说，好吗？你的衣服好漂亮啊！",
+    "pinyin": "Jīntiān tiānqì hěn hǎo. Nǐ tīng wǒ shuō, hǎo ma? Nǐ de yīfu hǎo piàoliang a!",
+    "nghia": "Hôm nay thời tiết rất đẹp. Bạn nghe tôi nói được không? Quần áo của bạn đẹp quá!",
+    "hsk": 2,
+    "related_word": "好",
+    "audio": "今天天气很好_你听我说_好吗_你的衣服好漂亮啊.mp3"
+  },
+  {
+    "id": 65,
+    "hanzi": "今天是2002年1月1号。你的房间号是多少？",
+    "pinyin": "Jīntiān shì èr líng líng èr nián yī yuè yī hào. Nǐ de fángjiān hào shì duōshao?",
+    "nghia": "Hôm nay là ngày 1 tháng 1 năm 2002. Số phòng của bạn là bao nhiêu?",
+    "hsk": 2,
+    "related_word": "号",
+    "audio": "今天是2002年1月1号_你的房间号是多少.mp3"
+  },
+  {
+    "id": 66,
+    "hanzi": "我想喝水。",
+    "pinyin": "Wǒ xiǎng hē shuǐ.",
+    "nghia": "Tôi muốn uống nước.",
+    "hsk": 2,
+    "related_word": "喝",
+    "audio": "我想喝水.mp3"
+  },
+  {
+    "id": 67,
+    "hanzi": "爸爸和妈妈都在家。",
+    "pinyin": "Bàba hé māma dōu zài jiā.",
+    "nghia": "Bố và mẹ đều ở nhà.",
+    "hsk": 2,
+    "related_word": "和",
+    "audio": "爸爸和妈妈都在家.mp3"
+  },
+  {
+    "id": 68,
+    "hanzi": "他和王先生说话呢。",
+    "pinyin": "Tā hé Wáng xiānsheng shuōhuà ne.",
+    "nghia": "Anh ấy đang nói chuyện với ông Vương.",
+    "hsk": 2,
+    "related_word": "和",
+    "audio": "他和王先生说话呢.mp3"
+  },
+  {
+    "id": 69,
+    "hanzi": "李小姐很漂亮。",
+    "pinyin": "Lǐ xiǎojie hěn piàoliang.",
+    "nghia": "Cô Lý rất xinh đẹp.",
+    "hsk": 2,
+    "related_word": "很",
+    "audio": "李小姐很漂亮.mp3"
+  },
+  {
+    "id": 70,
+    "hanzi": "商店在学校后面。",
+    "pinyin": "Shāngdiàn zài xuéxiào hòumiàn.",
+    "nghia": "Cửa hàng nằm phía sau trường học.",
+    "hsk": 2,
+    "related_word": "后面",
+    "audio": "商店在学校后面.mp3"
+  },
+  {
+    "id": 71,
+    "hanzi": "我八点回家。",
+    "pinyin": "Wǒ bā diǎn huí jiā.",
+    "nghia": "Tôi về nhà lúc tám giờ.",
+    "hsk": 2,
+    "related_word": "回",
+    "audio": "我八点回家.mp3"
+  },
+  {
+    "id": 72,
+    "hanzi": "我去过一回北京。",
+    "pinyin": "Wǒ qù guo yì huí Běijīng.",
+    "nghia": "Tôi đã từng đi Bắc Kinh một lần.",
+    "hsk": 2,
+    "related_word": "回",
+    "audio": "我去过一回北京.mp3"
+  },
+  {
+    "id": 73,
+    "hanzi": "我会开车。",
+    "pinyin": "Wǒ huì kāichē.",
+    "nghia": "Tôi biết lái xe.",
+    "hsk": 2,
+    "related_word": "会",
+    "audio": "我会开车.mp3"
+  },
+  {
+    "id": 74,
+    "hanzi": "你有几个儿子？",
+    "pinyin": "Nǐ yǒu jǐ ge érzi?",
+    "nghia": "Bạn có mấy người con trai?",
+    "hsk": 2,
+    "related_word": "几",
+    "audio": "你有几个儿子.mp3"
+  },
+  {
+    "id": 75,
+    "hanzi": "我家在北京。",
+    "pinyin": "Wǒ jiā zài Běijīng.",
+    "nghia": "Nhà tôi ở Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "家",
+    "audio": "我家在北京.mp3"
+  },
+  {
+    "id": 76,
+    "hanzi": "我的名字叫李明。",
+    "pinyin": "Wǒ de míngzi jiào Lǐ Míng.",
+    "nghia": "Tên tôi là Lý Minh.",
+    "hsk": 2,
+    "related_word": "叫",
+    "audio": "我的名字叫李明.mp3"
+  },
+  {
+    "id": 77,
+    "hanzi": "我今天去北京。",
+    "pinyin": "Wǒ jīntiān qù Běijīng.",
+    "nghia": "Hôm nay tôi đi Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "今天",
+    "audio": "我今天去北京.mp3"
+  },
+  {
+    "id": 78,
+    "hanzi": "今天是八月九日。",
+    "pinyin": "Jīntiān shì bā yuè jiǔ rì.",
+    "nghia": "Hôm nay là ngày 9 tháng 8.",
+    "hsk": 2,
+    "related_word": "九",
+    "audio": "今天是八月九日.mp3"
+  },
+  {
+    "id": 79,
+    "hanzi": "我开了三年出租车了。我爸爸开了一个小公司。",
+    "pinyin": "Wǒ kāi le sān nián chūzūchē le. Wǒ bàba kāi le yí ge xiǎo gōngsī.",
+    "nghia": "Tôi đã lái taxi được ba năm rồi. Bố tôi mở một công ty nhỏ.",
+    "hsk": 2,
+    "related_word": "开",
+    "audio": "我开了三年出租车了_我爸爸开了一个小公司.mp3"
+  },
+  {
+    "id": 80,
+    "hanzi": "你看，那本书在桌子上呢。",
+    "pinyin": "Nǐ kàn, nà běn shū zài zhuōzi shàng ne.",
+    "nghia": "Bạn xem, quyển sách đó đang ở trên bàn kìa.",
+    "hsk": 2,
+    "related_word": "看",
+    "audio": "你看_那本书在桌子上呢.mp3"
+  },
+  {
+    "id": 81,
+    "hanzi": "我在看书呢。",
+    "pinyin": "Wǒ zài kàn shū ne.",
+    "nghia": "Tôi đang đọc sách.",
+    "hsk": 2,
+    "related_word": "看",
+    "audio": "我在看书呢.mp3"
+  },
+  {
+    "id": 82,
+    "hanzi": "我没看见他。",
+    "pinyin": "Wǒ méi kànjiàn tā.",
+    "nghia": "Tôi không nhìn thấy anh ấy.",
+    "hsk": 2,
+    "related_word": "看见",
+    "audio": "我没看见他.mp3"
+  },
+  {
+    "id": 83,
+    "hanzi": "这本书三十块钱。",
+    "pinyin": "Zhè běn shū sānshí kuài qián.",
+    "nghia": "Quyển sách này giá ba mươi tệ.",
+    "hsk": 2,
+    "related_word": "块",
+    "audio": "这本书三十块钱.mp3"
+  },
+  {
+    "id": 84,
+    "hanzi": "来吃块西瓜吧。",
+    "pinyin": "Lái chī kuài xīguā ba.",
+    "nghia": "Đến ăn miếng dưa hấu đi.",
+    "hsk": 2,
+    "related_word": "块",
+    "audio": "来吃块西瓜吧.mp3"
+  },
+  {
+    "id": 85,
+    "hanzi": "他是昨天来这儿的。",
+    "pinyin": "Tā shì zuótiān lái zhèr de.",
+    "nghia": "Anh ấy đến đây từ hôm qua.",
+    "hsk": 2,
+    "related_word": "来",
+    "audio": "他是昨天来这儿的.mp3"
+  },
+  {
+    "id": 86,
+    "hanzi": "再来点儿水果，怎么样？",
+    "pinyin": "Zài lái diǎnr shuǐguǒ, zěnmeyàng?",
+    "nghia": "Ăn thêm chút trái cây nữa nhé, được không?",
+    "hsk": 2,
+    "related_word": "来",
+    "audio": "再来点儿水果_怎么样.mp3"
+  },
+  {
+    "id": 87,
+    "hanzi": "他就是我们的汉语老师。",
+    "pinyin": "Tā jiù shì wǒmen de Hànyǔ lǎoshī.",
+    "nghia": "Anh ấy chính là thầy giáo tiếng Trung của chúng tôi.",
+    "hsk": 2,
+    "related_word": "老师",
+    "audio": "他就是我们的汉语老师.mp3"
+  },
+  {
+    "id": 88,
+    "hanzi": "昨天下雨了。",
+    "pinyin": "Zuótiān xiàyǔ le.",
+    "nghia": "Hôm qua trời mưa.",
+    "hsk": 2,
+    "related_word": "了",
+    "audio": "昨天下雨了.mp3"
+  },
+  {
+    "id": 89,
+    "hanzi": "我吃了饭就去你那里。",
+    "pinyin": "Wǒ chī le fàn jiù qù nǐ nàli.",
+    "nghia": "Tôi ăn cơm xong sẽ đến chỗ bạn ngay.",
+    "hsk": 2,
+    "related_word": "了",
+    "audio": "我吃了饭就去你那里.mp3"
+  },
+  {
+    "id": 90,
+    "hanzi": "今天太冷了。",
+    "pinyin": "Jīntiān tài lěng le.",
+    "nghia": "Hôm nay lạnh quá.",
+    "hsk": 2,
+    "related_word": "冷",
+    "audio": "今天太冷了.mp3"
+  },
+  {
+    "id": 91,
+    "hanzi": "我们都在学校里。",
+    "pinyin": "Wǒmen dōu zài xuéxiào lǐ.",
+    "nghia": "Chúng tôi đều ở trong trường.",
+    "hsk": 2,
+    "related_word": "里",
+    "audio": "我们都在学校里.mp3"
+  },
+  {
+    "id": 92,
+    "hanzi": "今年是二零一一年。",
+    "pinyin": "Jīnnián shì èr líng yī yī nián.",
+    "nghia": "Năm nay là năm 2011.",
+    "hsk": 2,
+    "related_word": "零",
+    "audio": "今年是二零一一年.mp3"
+  },
+  {
+    "id": 93,
+    "hanzi": "桌子上有六个杯子。",
+    "pinyin": "Zhuōzi shàng yǒu liù ge bēizi.",
+    "nghia": "Trên bàn có sáu cái cốc.",
+    "hsk": 2,
+    "related_word": "六",
+    "audio": "桌子上有六个杯子.mp3"
+  },
+  {
+    "id": 94,
+    "hanzi": "我妈妈不在家。",
+    "pinyin": "Wǒ māma bú zài jiā.",
+    "nghia": "Mẹ tôi không có ở nhà.",
+    "hsk": 2,
+    "related_word": "妈妈",
+    "audio": "我妈妈不在家.mp3"
+  },
+  {
+    "id": 95,
+    "hanzi": "你是中国人吗？",
+    "pinyin": "Nǐ shì Zhōngguórén ma?",
+    "nghia": "Bạn là người Trung Quốc phải không?",
+    "hsk": 2,
+    "related_word": "吗",
+    "audio": "你是中国人吗.mp3"
+  },
+  {
+    "id": 96,
+    "hanzi": "我买了一些苹果。",
+    "pinyin": "Wǒ mǎi le yìxiē píngguǒ.",
+    "nghia": "Tôi đã mua một ít táo.",
+    "hsk": 2,
+    "related_word": "买",
+    "audio": "我买了一些苹果.mp3"
+  },
+  {
+    "id": 97,
+    "hanzi": "甲：对不起！乙：没关系。",
+    "pinyin": "Jiǎ: Duìbuqǐ! Yǐ: Méi guānxi.",
+    "nghia": "A: Xin lỗi! B: Không sao đâu.",
+    "hsk": 2,
+    "related_word": "没关系",
+    "audio": "甲_对不起_乙_没关系.mp3"
+  },
+  {
+    "id": 98,
+    "hanzi": "我家里没有人。我没有他高。",
+    "pinyin": "Wǒ jiā lǐ méiyǒu rén. Wǒ méiyǒu tā gāo.",
+    "nghia": "Nhà tôi không có ai. Tôi không cao bằng anh ấy.",
+    "hsk": 2,
+    "related_word": "没有",
+    "audio": "我家里没有人_我没有他高.mp3"
+  },
+  {
+    "id": 99,
+    "hanzi": "我爱吃米饭。",
+    "pinyin": "Wǒ ài chī mǐfàn.",
+    "nghia": "Tôi thích ăn cơm.",
+    "hsk": 2,
+    "related_word": "米饭",
+    "audio": "我爱吃米饭.mp3"
+  },
+  {
+    "id": 100,
+    "hanzi": "今天星期日，明天是星期一。",
+    "pinyin": "Jīntiān xīngqīrì, míngtiān shì xīngqīyī.",
+    "nghia": "Hôm nay là chủ nhật, ngày mai là thứ hai.",
+    "hsk": 2,
+    "related_word": "明天",
+    "audio": "今天星期日_明天是星期一.mp3"
+  },
+  {
+    "id": 101,
+    "hanzi": "哪个杯子是你的？",
+    "pinyin": "Nǎge bēizi shì nǐ de?",
+    "nghia": "Cái cốc nào là của bạn?",
+    "hsk": 2,
+    "related_word": "哪",
+    "audio": "哪个杯子是你的.mp3"
+  },
+  {
+    "id": 102,
+    "hanzi": "你家在哪儿？",
+    "pinyin": "Nǐ jiā zài nǎr?",
+    "nghia": "Nhà bạn ở đâu?",
+    "hsk": 2,
+    "related_word": "哪儿",
+    "audio": "你家在哪儿.mp3"
+  },
+  {
+    "id": 103,
+    "hanzi": "我不认识那个人。我们的车在那儿。",
+    "pinyin": "Wǒ bú rènshi nàge rén. Wǒmen de chē zài nàr.",
+    "nghia": "Tôi không quen người đó. Xe của chúng tôi đậu ở đằng kia.",
+    "hsk": 2,
+    "related_word": "那（那儿）",
+    "audio": "我不认识那个人_我们的车在那儿.mp3"
+  },
+  {
+    "id": 104,
+    "hanzi": "你们家有几个人呢？",
+    "pinyin": "Nǐmen jiā yǒu jǐ ge rén ne?",
+    "nghia": "Nhà bạn có mấy người?",
+    "hsk": 2,
+    "related_word": "呢",
+    "audio": "你们家有几个人呢.mp3"
+  },
+  {
+    "id": 105,
+    "hanzi": "我在睡觉呢。",
+    "pinyin": "Wǒ zài shuìjiào ne.",
+    "nghia": "Tôi đang ngủ đây.",
+    "hsk": 2,
+    "related_word": "呢",
+    "audio": "我在睡觉呢.mp3"
+  },
+  {
+    "id": 106,
+    "hanzi": "我能坐在这儿吗？",
+    "pinyin": "Wǒ néng zuò zài zhèr ma?",
+    "nghia": "Tôi ngồi ở đây được không?",
+    "hsk": 2,
+    "related_word": "能",
+    "audio": "我能坐在这儿吗.mp3"
+  },
+  {
+    "id": 107,
+    "hanzi": "你认识这个人吗？",
+    "pinyin": "Nǐ rènshi zhège rén ma?",
+    "nghia": "Bạn có quen người này không?",
+    "hsk": 2,
+    "related_word": "你",
+    "audio": "你认识这个人吗.mp3"
+  },
+  {
+    "id": 108,
+    "hanzi": "我在中国住了三年。",
+    "pinyin": "Wǒ zài Zhōngguó zhù le sān nián.",
+    "nghia": "Tôi đã sống ở Trung Quốc ba năm.",
+    "hsk": 2,
+    "related_word": "年",
+    "audio": "我在中国住了三年.mp3"
+  },
+  {
+    "id": 109,
+    "hanzi": "我有两个女儿。",
+    "pinyin": "Wǒ yǒu liǎng ge nǚ'ér.",
+    "nghia": "Tôi có hai cô con gái.",
+    "hsk": 2,
+    "related_word": "女儿",
+    "audio": "我有两个女儿.mp3"
+  },
+  {
+    "id": 110,
+    "hanzi": "他是我的好朋友。",
+    "pinyin": "Tā shì wǒ de hǎo péngyou.",
+    "nghia": "Anh ấy là bạn tốt của tôi.",
+    "hsk": 2,
+    "related_word": "朋友",
+    "audio": "他是我的好朋友.mp3"
+  },
+  {
+    "id": 111,
+    "hanzi": "你的衣服真漂亮。",
+    "pinyin": "Nǐ de yīfu zhēn piàoliang.",
+    "nghia": "Quần áo của bạn thật đẹp.",
+    "hsk": 2,
+    "related_word": "漂亮",
+    "audio": "你的衣服真漂亮.mp3"
+  },
+  {
+    "id": 112,
+    "hanzi": "你想不想吃个苹果？",
+    "pinyin": "Nǐ xiǎng bu xiǎng chī ge píngguǒ?",
+    "nghia": "Bạn có muốn ăn một quả táo không?",
+    "hsk": 2,
+    "related_word": "苹果",
+    "audio": "你想不想吃个苹果.mp3"
+  },
+  {
+    "id": 113,
+    "hanzi": "一个星期有七天。",
+    "pinyin": "Yí ge xīngqī yǒu qī tiān.",
+    "nghia": "Một tuần có bảy ngày.",
+    "hsk": 2,
+    "related_word": "七",
+    "audio": "一个星期有七天.mp3"
+  },
+  {
+    "id": 114,
+    "hanzi": "一个苹果三块钱。",
+    "pinyin": "Yí ge píngguǒ sān kuài qián.",
+    "nghia": "Một quả táo giá ba tệ.",
+    "hsk": 2,
+    "related_word": "钱",
+    "audio": "一个苹果三块钱.mp3"
+  },
+  {
+    "id": 115,
+    "hanzi": "前面那个人是我的同学。",
+    "pinyin": "Qiánmiàn nàge rén shì wǒ de tóngxué.",
+    "nghia": "Người phía trước đó là bạn học của tôi.",
+    "hsk": 2,
+    "related_word": "前面",
+    "audio": "前面那个人是我的同学.mp3"
+  },
+  {
+    "id": 116,
+    "hanzi": "请坐在椅子上。",
+    "pinyin": "Qǐng zuò zài yǐzi shàng.",
+    "nghia": "Mời bạn ngồi xuống ghế.",
+    "hsk": 2,
+    "related_word": "请",
+    "audio": "请坐在椅子上.mp3"
+  },
+  {
+    "id": 117,
+    "hanzi": "我去请老师帮忙。",
+    "pinyin": "Wǒ qù qǐng lǎoshī bāngmáng.",
+    "nghia": "Tôi đi nhờ thầy giáo giúp đỡ.",
+    "hsk": 2,
+    "related_word": "请",
+    "audio": "我去请老师帮忙.mp3"
+  },
+  {
+    "id": 118,
+    "hanzi": "他想请我吃饭。",
+    "pinyin": "Tā xiǎng qǐng wǒ chīfàn.",
+    "nghia": "Anh ấy muốn mời tôi đi ăn.",
+    "hsk": 2,
+    "related_word": "请",
+    "audio": "他想请我吃饭.mp3"
+  },
+  {
+    "id": 119,
+    "hanzi": "我星期三去中国。",
+    "pinyin": "Wǒ xīngqīsān qù Zhōngguó.",
+    "nghia": "Thứ tư tôi đi Trung Quốc.",
+    "hsk": 2,
+    "related_word": "去",
+    "audio": "我星期三去中国.mp3"
+  },
+  {
+    "id": 120,
+    "hanzi": "小猫跑到房间里去了。",
+    "pinyin": "Xiǎo māo pǎo dào fángjiān lǐ qù le.",
+    "nghia": "Con mèo con chạy vào trong phòng rồi.",
+    "hsk": 2,
+    "related_word": "去",
+    "audio": "小猫跑到房间里去了.mp3"
+  },
+  {
+    "id": 121,
+    "hanzi": "今天很热。",
+    "pinyin": "Jīntiān hěn rè.",
+    "nghia": "Hôm nay trời nóng.",
+    "hsk": 2,
+    "related_word": "热",
+    "audio": "今天很热.mp3"
+  },
+  {
+    "id": 122,
+    "hanzi": "我去热一下米饭。",
+    "pinyin": "Wǒ qù rè yíxià mǐfàn.",
+    "nghia": "Tôi đi hâm nóng cơm một chút.",
+    "hsk": 2,
+    "related_word": "热",
+    "audio": "我去热一下米饭.mp3"
+  },
+  {
+    "id": 123,
+    "hanzi": "商店里有很多人。",
+    "pinyin": "Shāngdiàn lǐ yǒu hěn duō rén.",
+    "nghia": "Trong cửa hàng có rất nhiều người.",
+    "hsk": 2,
+    "related_word": "人",
+    "audio": "商店里有很多人.mp3"
+  },
+  {
+    "id": 124,
+    "hanzi": "认识你很高兴。",
+    "pinyin": "Rènshi nǐ hěn gāoxìng.",
+    "nghia": "Rất vui được quen biết bạn.",
+    "hsk": 2,
+    "related_word": "认识",
+    "audio": "认识你很高兴.mp3"
+  },
+  {
+    "id": 125,
+    "hanzi": "我有三本书。",
+    "pinyin": "Wǒ yǒu sān běn shū.",
+    "nghia": "Tôi có ba quyển sách.",
+    "hsk": 2,
+    "related_word": "三",
+    "audio": "我有三本书.mp3"
+  },
+  {
+    "id": 126,
+    "hanzi": "她去商店买东西了。水果在桌子上。",
+    "pinyin": "Tā qù shāngdiàn mǎi dōngxi le. Shuǐguǒ zài zhuōzi shàng.",
+    "nghia": "Cô ấy đi cửa hàng mua đồ rồi. Trái cây ở trên bàn.",
+    "hsk": 2,
+    "related_word": "商店",
+    "audio": "她去商店买东西了_水果在桌子上.mp3"
+  },
+  {
+    "id": 127,
+    "hanzi": "水果在桌子上。",
+    "pinyin": "Shuǐguǒ zài zhuōzi shàng.",
+    "nghia": "Trái cây ở trên bàn.",
+    "hsk": 2,
+    "related_word": "上",
+    "audio": "水果在桌子上.mp3"
+  },
+  {
+    "id": 128,
+    "hanzi": "我们八点去上学。",
+    "pinyin": "Wǒmen bā diǎn qù shàngxué.",
+    "nghia": "Chúng tôi đi học lúc tám giờ.",
+    "hsk": 2,
+    "related_word": "上",
+    "audio": "我们八点去上学.mp3"
+  },
+  {
+    "id": 129,
+    "hanzi": "现在是上午10点。",
+    "pinyin": "Xiànzài shì shàngwǔ shí diǎn.",
+    "nghia": "Bây giờ là mười giờ sáng.",
+    "hsk": 2,
+    "related_word": "上午",
+    "audio": "现在是上午10点.mp3"
+  },
+  {
+    "id": 130,
+    "hanzi": "杯子里的水很少。我还少一本书。",
+    "pinyin": "Bēizi lǐ de shuǐ hěn shǎo. Wǒ hái shǎo yì běn shū.",
+    "nghia": "Nước trong cốc còn rất ít. Tôi vẫn còn thiếu một quyển sách.",
+    "hsk": 2,
+    "related_word": "少",
+    "audio": "杯子里的水很少_我还少一本书.mp3"
+  },
+  {
+    "id": 131,
+    "hanzi": "那个人是谁？",
+    "pinyin": "Nàge rén shì shéi?",
+    "nghia": "Người đó là ai?",
+    "hsk": 2,
+    "related_word": "谁",
+    "audio": "那个人是谁.mp3"
+  },
+  {
+    "id": 132,
+    "hanzi": "你看见了什么？",
+    "pinyin": "Nǐ kànjiàn le shénme?",
+    "nghia": "Bạn đã nhìn thấy gì?",
+    "hsk": 2,
+    "related_word": "什么",
+    "audio": "你看见了什么.mp3"
+  },
+  {
+    "id": 133,
+    "hanzi": "现在是十月。",
+    "pinyin": "Xiànzài shì shíyuè.",
+    "nghia": "Bây giờ là tháng Mười.",
+    "hsk": 2,
+    "related_word": "十",
+    "audio": "现在是十月.mp3"
+  },
+  {
+    "id": 134,
+    "hanzi": "我回家的时候，他在睡觉。",
+    "pinyin": "Wǒ huí jiā de shíhou, tā zài shuìjiào.",
+    "nghia": "Lúc tôi về nhà, anh ấy đang ngủ.",
+    "hsk": 2,
+    "related_word": "时候",
+    "audio": "我回家的时候_他在睡觉.mp3"
+  },
+  {
+    "id": 135,
+    "hanzi": "他不是学生。",
+    "pinyin": "Tā bú shì xuésheng.",
+    "nghia": "Anh ấy không phải là học sinh.",
+    "hsk": 2,
+    "related_word": "是",
+    "audio": "他不是学生.mp3"
+  },
+  {
+    "id": 136,
+    "hanzi": "甲：你是中国人吗？乙：是，我是中国人。",
+    "pinyin": "Jiǎ: Nǐ shì Zhōngguórén ma? Yǐ: Shì, wǒ shì Zhōngguórén.",
+    "nghia": "A: Bạn là người Trung Quốc phải không? B: Đúng vậy, tôi là người Trung Quốc.",
+    "hsk": 2,
+    "related_word": "是",
+    "audio": "甲_你是中国人吗_乙_是_我是中国人.mp3"
+  },
+  {
+    "id": 137,
+    "hanzi": "我喜欢读书。",
+    "pinyin": "Wǒ xǐhuan dúshū.",
+    "nghia": "Tôi thích đọc sách.",
+    "hsk": 2,
+    "related_word": "书",
+    "audio": "我喜欢读书.mp3"
+  },
+  {
+    "id": 138,
+    "hanzi": "杯子里还有水吗？",
+    "pinyin": "Bēizi lǐ hái yǒu shuǐ ma?",
+    "nghia": "Trong cốc còn nước không?",
+    "hsk": 2,
+    "related_word": "水",
+    "audio": "杯子里还有水吗.mp3"
+  },
+  {
+    "id": 139,
+    "hanzi": "我想去商店买水果。",
+    "pinyin": "Wǒ xiǎng qù shāngdiàn mǎi shuǐguǒ.",
+    "nghia": "Tôi muốn đi cửa hàng mua trái cây.",
+    "hsk": 2,
+    "related_word": "水果",
+    "audio": "我想去商店买水果.mp3"
+  },
+  {
+    "id": 140,
+    "hanzi": "儿子在睡觉呢。",
+    "pinyin": "Érzi zài shuìjiào ne.",
+    "nghia": "Con trai đang ngủ.",
+    "hsk": 2,
+    "related_word": "睡觉",
+    "audio": "儿子在睡觉呢.mp3"
+  },
+  {
+    "id": 141,
+    "hanzi": "你在说什么？",
+    "pinyin": "Nǐ zài shuō shénme?",
+    "nghia": "Bạn đang nói gì vậy?",
+    "hsk": 2,
+    "related_word": "说",
+    "audio": "你在说什么.mp3"
+  },
+  {
+    "id": 142,
+    "hanzi": "他们在说话。",
+    "pinyin": "Tāmen zài shuōhuà.",
+    "nghia": "Họ đang nói chuyện.",
+    "hsk": 2,
+    "related_word": "说话",
+    "audio": "他们在说话.mp3"
+  },
+  {
+    "id": 143,
+    "hanzi": "我们四个人去看电影。",
+    "pinyin": "Wǒmen sì ge rén qù kàn diànyǐng.",
+    "nghia": "Bốn chúng tôi đi xem phim.",
+    "hsk": 2,
+    "related_word": "四",
+    "audio": "我们四个人去看电影.mp3"
+  },
+  {
+    "id": 144,
+    "hanzi": "李医生今年40岁。",
+    "pinyin": "Lǐ yīshēng jīnnián sìshí suì.",
+    "nghia": "Bác sĩ Lý năm nay bốn mươi tuổi.",
+    "hsk": 2,
+    "related_word": "岁",
+    "audio": "李医生今年40岁.mp3"
+  },
+  {
+    "id": 145,
+    "hanzi": "他是我们的老师。",
+    "pinyin": "Tā shì wǒmen de lǎoshī.",
+    "nghia": "Anh ấy là thầy giáo của chúng tôi.",
+    "hsk": 2,
+    "related_word": "他",
+    "audio": "他是我们的老师.mp3"
+  },
+  {
+    "id": 146,
+    "hanzi": "我认识她的妈妈。",
+    "pinyin": "Wǒ rènshi tā de māma.",
+    "nghia": "Tôi quen mẹ của cô ấy.",
+    "hsk": 2,
+    "related_word": "她",
+    "audio": "我认识她的妈妈.mp3"
+  },
+  {
+    "id": 147,
+    "hanzi": "这个学校太大了。",
+    "pinyin": "Zhège xuéxiào tài dà le.",
+    "nghia": "Trường này to quá.",
+    "hsk": 2,
+    "related_word": "太",
+    "audio": "这个学校太大了.mp3"
+  },
+  {
+    "id": 148,
+    "hanzi": "这个苹果太大，我吃不完。",
+    "pinyin": "Zhège píngguǒ tài dà, wǒ chī bu wán.",
+    "nghia": "Quả táo này to quá, tôi ăn không hết.",
+    "hsk": 2,
+    "related_word": "太",
+    "audio": "这个苹果太大_我吃不完.mp3"
+  },
+  {
+    "id": 149,
+    "hanzi": "今天的天气非常好。",
+    "pinyin": "Jīntiān de tiānqì fēicháng hǎo.",
+    "nghia": "Thời tiết hôm nay rất đẹp.",
+    "hsk": 2,
+    "related_word": "天气",
+    "audio": "今天的天气非常好.mp3"
+  },
+  {
+    "id": 150,
+    "hanzi": "你听，谁来了？",
+    "pinyin": "Nǐ tīng, shéi lái le?",
+    "nghia": "Bạn nghe xem, ai đến vậy?",
+    "hsk": 2,
+    "related_word": "听",
+    "audio": "你听_谁来了.mp3"
+  },
+  {
+    "id": 151,
+    "hanzi": "同学们，你们好！",
+    "pinyin": "Tóngxuémen, nǐmen hǎo!",
+    "nghia": "Chào các bạn học sinh!",
+    "hsk": 2,
+    "related_word": "同学",
+    "audio": "同学们_你们好.mp3"
+  },
+  {
+    "id": 152,
+    "hanzi": "喂，李老师在吗？",
+    "pinyin": "Wéi, Lǐ lǎoshī zài ma?",
+    "nghia": "A lô, thầy Lý có ở đó không?",
+    "hsk": 2,
+    "related_word": "喂",
+    "audio": "喂_李老师在吗.mp3"
+  },
+  {
+    "id": 153,
+    "hanzi": "我们都是学生。",
+    "pinyin": "Wǒmen dōu shì xuésheng.",
+    "nghia": "Chúng tôi đều là học sinh.",
+    "hsk": 2,
+    "related_word": "我们",
+    "audio": "我们都是学生.mp3"
+  },
+  {
+    "id": 154,
+    "hanzi": "今天星期五。",
+    "pinyin": "Jīntiān xīngqīwǔ.",
+    "nghia": "Hôm nay là thứ sáu.",
+    "hsk": 2,
+    "related_word": "五",
+    "audio": "今天星期五.mp3"
+  },
+  {
+    "id": 155,
+    "hanzi": "我喜欢学汉语。",
+    "pinyin": "Wǒ xǐhuan xué Hànyǔ.",
+    "nghia": "Tôi thích học tiếng Trung.",
+    "hsk": 2,
+    "related_word": "喜欢",
+    "audio": "我喜欢学汉语.mp3"
+  },
+  {
+    "id": 156,
+    "hanzi": "小猫在桌子下面。",
+    "pinyin": "Xiǎo māo zài zhuōzi xiàmiàn.",
+    "nghia": "Con mèo con ở dưới bàn.",
+    "hsk": 2,
+    "related_word": "下",
+    "audio": "小猫在桌子下面.mp3"
+  },
+  {
+    "id": 157,
+    "hanzi": "今天下雨了。",
+    "pinyin": "Jīntiān xiàyǔ le.",
+    "nghia": "Hôm nay trời mưa.",
+    "hsk": 2,
+    "related_word": "下",
+    "audio": "今天下雨了.mp3"
+  },
+  {
+    "id": 158,
+    "hanzi": "我下个月去北京。",
+    "pinyin": "Wǒ xià ge yuè qù Běijīng.",
+    "nghia": "Tháng sau tôi đi Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "下",
+    "audio": "我下个月去北京.mp3"
+  },
+  {
+    "id": 159,
+    "hanzi": "他在下飞机呢。",
+    "pinyin": "Tā zài xià fēijī ne.",
+    "nghia": "Anh ấy đang xuống máy bay.",
+    "hsk": 2,
+    "related_word": "下",
+    "audio": "他在下飞机呢.mp3"
+  },
+  {
+    "id": 160,
+    "hanzi": "我今天下午不去学校了。",
+    "pinyin": "Wǒ jīntiān xiàwǔ bú qù xuéxiào le.",
+    "nghia": "Chiều nay tôi không đi học nữa.",
+    "hsk": 2,
+    "related_word": "下午",
+    "audio": "我今天下午不去学校了.mp3"
+  },
+  {
+    "id": 161,
+    "hanzi": "昨天下雨了。",
+    "pinyin": "Zuótiān xiàyǔ le.",
+    "nghia": "Hôm qua trời mưa.",
+    "hsk": 2,
+    "related_word": "下雨",
+    "audio": "昨天下雨了.mp3"
+  },
+  {
+    "id": 162,
+    "hanzi": "你也认识王先生？",
+    "pinyin": "Nǐ yě rènshi Wáng xiānsheng?",
+    "nghia": "Bạn cũng quen ông Vương à?",
+    "hsk": 2,
+    "related_word": "先生",
+    "audio": "你也认识王先生.mp3"
+  },
+  {
+    "id": 163,
+    "hanzi": "现在是12点。",
+    "pinyin": "Xiànzài shì shí'èr diǎn.",
+    "nghia": "Bây giờ là mười hai giờ.",
+    "hsk": 2,
+    "related_word": "现在",
+    "audio": "现在是12点.mp3"
+  },
+  {
+    "id": 164,
+    "hanzi": "我想星期天去北京。",
+    "pinyin": "Wǒ xiǎng xīngqītiān qù Běijīng.",
+    "nghia": "Tôi định chủ nhật đi Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "想",
+    "audio": "我想星期天去北京.mp3"
+  },
+  {
+    "id": 165,
+    "hanzi": "妈妈，你在想什么呢？",
+    "pinyin": "Māma, nǐ zài xiǎng shénme ne?",
+    "nghia": "Mẹ ơi, mẹ đang nghĩ gì vậy?",
+    "hsk": 2,
+    "related_word": "想",
+    "audio": "妈妈_你在想什么呢.mp3"
+  },
+  {
+    "id": 166,
+    "hanzi": "这个苹果太小了。",
+    "pinyin": "Zhège píngguǒ tài xiǎo le.",
+    "nghia": "Quả táo này nhỏ quá.",
+    "hsk": 2,
+    "related_word": "小",
+    "audio": "这个苹果太小了.mp3"
+  },
+  {
+    "id": 167,
+    "hanzi": "雨小了，我们现在走吧。",
+    "pinyin": "Yǔ xiǎo le, wǒmen xiànzài zǒu ba.",
+    "nghia": "Mưa nhỏ rồi, chúng ta đi bây giờ đi.",
+    "hsk": 2,
+    "related_word": "小",
+    "audio": "雨小了_我们现在走吧.mp3"
+  },
+  {
+    "id": 168,
+    "hanzi": "小姐，你叫什么名字？",
+    "pinyin": "Xiǎojie, nǐ jiào shénme míngzi?",
+    "nghia": "Cô ơi, cô tên là gì?",
+    "hsk": 2,
+    "related_word": "小姐",
+    "audio": "小姐_你叫什么名字.mp3"
+  },
+  {
+    "id": 169,
+    "hanzi": "我买了些苹果。",
+    "pinyin": "Wǒ mǎi le xiē píngguǒ.",
+    "nghia": "Tôi đã mua một ít táo.",
+    "hsk": 2,
+    "related_word": "些",
+    "audio": "我买了些苹果.mp3"
+  },
+  {
+    "id": 170,
+    "hanzi": "你写的字很漂亮。",
+    "pinyin": "Nǐ xiě de zì hěn piàoliang.",
+    "nghia": "Chữ bạn viết rất đẹp.",
+    "hsk": 2,
+    "related_word": "写",
+    "audio": "你写的字很漂亮.mp3"
+  },
+  {
+    "id": 171,
+    "hanzi": "甲：谢谢你。乙：不客气！",
+    "pinyin": "Jiǎ: Xièxie nǐ. Yǐ: Bú kèqi!",
+    "nghia": "A: Cảm ơn bạn. B: Không có gì!",
+    "hsk": 2,
+    "related_word": "谢谢",
+    "audio": "甲_谢谢你_乙_不客气.mp3"
+  },
+  {
+    "id": 172,
+    "hanzi": "我们学校里的学生很多。",
+    "pinyin": "Wǒmen xuéxiào lǐ de xuésheng hěn duō.",
+    "nghia": "Học sinh trong trường chúng tôi rất đông.",
+    "hsk": 2,
+    "related_word": "学生",
+    "audio": "我们学校里的学生很多.mp3"
+  },
+  {
+    "id": 173,
+    "hanzi": "你喜欢学习汉语吗？",
+    "pinyin": "Nǐ xǐhuan xuéxí Hànyǔ ma?",
+    "nghia": "Bạn có thích học tiếng Trung không?",
+    "hsk": 2,
+    "related_word": "学习",
+    "audio": "你喜欢学习汉语吗.mp3"
+  },
+  {
+    "id": 174,
+    "hanzi": "我们学校很大。",
+    "pinyin": "Wǒmen xuéxiào hěn dà.",
+    "nghia": "Trường chúng tôi rất rộng.",
+    "hsk": 2,
+    "related_word": "学校",
+    "audio": "我们学校很大.mp3"
+  },
+  {
+    "id": 175,
+    "hanzi": "请让我看一看。",
+    "pinyin": "Qǐng ràng wǒ kàn yi kàn.",
+    "nghia": "Cho tôi xem một chút.",
+    "hsk": 2,
+    "related_word": "一",
+    "audio": "请让我看一看.mp3"
+  },
+  {
+    "id": 176,
+    "hanzi": "我只有一点儿钱。",
+    "pinyin": "Wǒ zhǐ yǒu yìdiǎnr qián.",
+    "nghia": "Tôi chỉ có một chút tiền.",
+    "hsk": 2,
+    "related_word": "一点儿",
+    "audio": "我只有一点儿钱.mp3"
+  },
+  {
+    "id": 177,
+    "hanzi": "我在商店买了很多衣服。",
+    "pinyin": "Wǒ zài shāngdiàn mǎi le hěn duō yīfu.",
+    "nghia": "Tôi đã mua rất nhiều quần áo ở cửa hàng.",
+    "hsk": 2,
+    "related_word": "衣服",
+    "audio": "我在商店买了很多衣服.mp3"
+  },
+  {
+    "id": 178,
+    "hanzi": "他是这个医院里的医生。",
+    "pinyin": "Tā shì zhège yīyuàn lǐ de yīshēng.",
+    "nghia": "Anh ấy là bác sĩ trong bệnh viện này.",
+    "hsk": 2,
+    "related_word": "医生",
+    "audio": "他是这个医院里的医生.mp3"
+  },
+  {
+    "id": 179,
+    "hanzi": "这是一个大医院。",
+    "pinyin": "Zhè shì yí ge dà yīyuàn.",
+    "nghia": "Đây là một bệnh viện lớn.",
+    "hsk": 2,
+    "related_word": "医院",
+    "audio": "这是一个大医院.mp3"
+  },
+  {
+    "id": 180,
+    "hanzi": "小狗在椅子下面呢。",
+    "pinyin": "Xiǎo gǒu zài yǐzi xiàmiàn ne.",
+    "nghia": "Con chó con đang ở dưới ghế.",
+    "hsk": 2,
+    "related_word": "椅子",
+    "audio": "小狗在椅子下面呢.mp3"
+  },
+  {
+    "id": 181,
+    "hanzi": "我有一个女儿。",
+    "pinyin": "Wǒ yǒu yí ge nǚ'ér.",
+    "nghia": "Tôi có một cô con gái.",
+    "hsk": 2,
+    "related_word": "有",
+    "audio": "我有一个女儿.mp3"
+  },
+  {
+    "id": 182,
+    "hanzi": "桌子上有本书。",
+    "pinyin": "Zhuōzi shàng yǒu běn shū.",
+    "nghia": "Trên bàn có một quyển sách.",
+    "hsk": 2,
+    "related_word": "有",
+    "audio": "桌子上有本书.mp3"
+  },
+  {
+    "id": 183,
+    "hanzi": "一年有12个月。",
+    "pinyin": "Yì nián yǒu shí'èr ge yuè.",
+    "nghia": "Một năm có mười hai tháng.",
+    "hsk": 2,
+    "related_word": "月",
+    "audio": "一年有12个月.mp3"
+  },
+  {
+    "id": 184,
+    "hanzi": "妈妈，我去学校了，再见。",
+    "pinyin": "Māma, wǒ qù xuéxiào le, zàijiàn.",
+    "nghia": "Mẹ ơi, con đi học đây, tạm biệt mẹ.",
+    "hsk": 2,
+    "related_word": "再见",
+    "audio": "妈妈_我去学校了_再见.mp3"
+  },
+  {
+    "id": 185,
+    "hanzi": "书在桌子上。",
+    "pinyin": "Shū zài zhuōzi shàng.",
+    "nghia": "Sách ở trên bàn.",
+    "hsk": 2,
+    "related_word": "在",
+    "audio": "书在桌子上.mp3"
+  },
+  {
+    "id": 186,
+    "hanzi": "我在吃饭呢。",
+    "pinyin": "Wǒ zài chīfàn ne.",
+    "nghia": "Tôi đang ăn cơm.",
+    "hsk": 2,
+    "related_word": "在",
+    "audio": "我在吃饭呢.mp3"
+  },
+  {
+    "id": 187,
+    "hanzi": "你怎么去北京？",
+    "pinyin": "Nǐ zěnme qù Běijīng?",
+    "nghia": "Bạn đi Bắc Kinh bằng cách nào?",
+    "hsk": 2,
+    "related_word": "怎么",
+    "audio": "你怎么去北京.mp3"
+  },
+  {
+    "id": 188,
+    "hanzi": "我们去看电影，怎么样？",
+    "pinyin": "Wǒmen qù kàn diànyǐng, zěnmeyàng?",
+    "nghia": "Chúng ta đi xem phim, được không?",
+    "hsk": 2,
+    "related_word": "怎么样",
+    "audio": "我们去看电影_怎么样.mp3"
+  },
+  {
+    "id": 189,
+    "hanzi": "这个人是我的同学。我能坐在这儿吗？",
+    "pinyin": "Zhège rén shì wǒ de tóngxué. Wǒ néng zuò zài zhèr ma?",
+    "nghia": "Người này là bạn học của tôi. Tôi ngồi ở đây được không?",
+    "hsk": 2,
+    "related_word": "这（这儿）",
+    "audio": "这个人是我的同学_我能坐在这儿吗.mp3"
+  },
+  {
+    "id": 190,
+    "hanzi": "我在中国学汉语。",
+    "pinyin": "Wǒ zài Zhōngguó xué Hànyǔ.",
+    "nghia": "Tôi học tiếng Trung ở Trung Quốc.",
+    "hsk": 2,
+    "related_word": "中国",
+    "audio": "我在中国学汉语.mp3"
+  },
+  {
+    "id": 191,
+    "hanzi": "我今天中午去火车站。",
+    "pinyin": "Wǒ jīntiān zhōngwǔ qù huǒchēzhàn.",
+    "nghia": "Trưa nay tôi đi ga tàu.",
+    "hsk": 2,
+    "related_word": "中午",
+    "audio": "我今天中午去火车站.mp3"
+  },
+  {
+    "id": 192,
+    "hanzi": "他在北京住了很多年。",
+    "pinyin": "Tā zài Běijīng zhù le hěn duō nián.",
+    "nghia": "Anh ấy đã sống ở Bắc Kinh nhiều năm.",
+    "hsk": 2,
+    "related_word": "住",
+    "audio": "他在北京住了很多年.mp3"
+  },
+  {
+    "id": 193,
+    "hanzi": "电脑在桌子上。",
+    "pinyin": "Diànnǎo zài zhuōzi shàng.",
+    "nghia": "Máy tính ở trên bàn.",
+    "hsk": 2,
+    "related_word": "桌子",
+    "audio": "电脑在桌子上.mp3"
+  },
+  {
+    "id": 194,
+    "hanzi": "这个字你认识吗？",
+    "pinyin": "Zhège zì nǐ rènshi ma?",
+    "nghia": "Chữ này bạn có biết không?",
+    "hsk": 2,
+    "related_word": "字",
+    "audio": "这个字你认识吗.mp3"
+  },
+  {
+    "id": 195,
+    "hanzi": "他昨天没去学校。",
+    "pinyin": "Tā zuótiān méi qù xuéxiào.",
+    "nghia": "Hôm qua anh ấy không đi học.",
+    "hsk": 2,
+    "related_word": "昨天",
+    "audio": "他昨天没去学校.mp3"
+  },
+  {
+    "id": 196,
+    "hanzi": "他一个下午都坐在电视前。",
+    "pinyin": "Tā yí ge xiàwǔ dōu zuò zài diànshì qián.",
+    "nghia": "Anh ấy ngồi trước tivi suốt cả buổi chiều.",
+    "hsk": 2,
+    "related_word": "坐",
+    "audio": "他一个下午都坐在电视前.mp3"
+  },
+  {
+    "id": 197,
+    "hanzi": "我坐飞机去中国。",
+    "pinyin": "Wǒ zuò fēijī qù Zhōngguó.",
+    "nghia": "Tôi đi Trung Quốc bằng máy bay.",
+    "hsk": 2,
+    "related_word": "坐",
+    "audio": "我坐飞机去中国.mp3"
+  },
+  {
+    "id": 198,
+    "hanzi": "今天妈妈做了很多菜。",
+    "pinyin": "Jīntiān māma zuò le hěn duō cài.",
+    "nghia": "Hôm nay mẹ nấu rất nhiều món.",
+    "hsk": 2,
+    "related_word": "做",
+    "audio": "今天妈妈做了很多菜.mp3"
+  },
+  {
+    "id": 199,
+    "hanzi": "你是做什么工作的？",
+    "pinyin": "Nǐ shì zuò shénme gōngzuò de?",
+    "nghia": "Bạn làm công việc gì?",
+    "hsk": 2,
+    "related_word": "做",
+    "audio": "你是做什么工作的.mp3"
+  },
+  {
+    "id": 200,
+    "hanzi": "你是个学生吧？请你走吧！",
+    "pinyin": "Nǐ shì ge xuésheng ba? Qǐng nǐ zǒu ba!",
+    "nghia": "Bạn là học sinh phải không? Mời bạn đi đi!",
+    "hsk": 2,
+    "related_word": "吧",
+    "audio": "你是个学生吧_请你走吧.mp3"
+  },
+  {
+    "id": 201,
+    "hanzi": "我很爱穿那件白衣服。",
+    "pinyin": "Wǒ hěn ài chuān nà jiàn bái yīfu.",
+    "nghia": "Tôi rất thích mặc chiếc áo trắng đó.",
+    "hsk": 2,
+    "related_word": "白",
+    "audio": "我很爱穿那件白衣服.mp3"
+  },
+  {
+    "id": 202,
+    "hanzi": "这个自行车五百多元。",
+    "pinyin": "Zhège zìxíngchē wǔbǎi duō yuán.",
+    "nghia": "Chiếc xe đạp này giá hơn năm trăm tệ.",
+    "hsk": 2,
+    "related_word": "百",
+    "audio": "这个自行车五百多元.mp3"
+  },
+  {
+    "id": 203,
+    "hanzi": "请帮助我找一家搬家公司，好吗？",
+    "pinyin": "Qǐng bāngzhù wǒ zhǎo yì jiā bānjiā gōngsī, hǎo ma?",
+    "nghia": "Nhờ bạn giúp tôi tìm một công ty chuyển nhà được không?",
+    "hsk": 2,
+    "related_word": "帮助",
+    "audio": "请帮助我找一家搬家公司_好吗.mp3"
+  },
+  {
+    "id": 204,
+    "hanzi": "我每天早上都要读报纸。",
+    "pinyin": "Wǒ měitiān zǎoshang dōu yào dú bàozhǐ.",
+    "nghia": "Sáng nào tôi cũng đọc báo.",
+    "hsk": 2,
+    "related_word": "报纸",
+    "audio": "我每天早上都要读报纸.mp3"
+  },
+  {
+    "id": 205,
+    "hanzi": "我的孩子比我高。",
+    "pinyin": "Wǒ de háizi bǐ wǒ gāo.",
+    "nghia": "Con tôi cao hơn tôi.",
+    "hsk": 2,
+    "related_word": "比",
+    "audio": "我的孩子比我高.mp3"
+  },
+  {
+    "id": 206,
+    "hanzi": "太晚了，别看电视了。",
+    "pinyin": "Tài wǎn le, bié kàn diànshì le.",
+    "nghia": "Muộn quá rồi, đừng xem tivi nữa.",
+    "hsk": 2,
+    "related_word": "别",
+    "audio": "太晚了_别看电视了.mp3"
+  },
+  {
+    "id": 207,
+    "hanzi": "姐姐的腿长，跑得快。",
+    "pinyin": "Jiějie de tuǐ cháng, pǎo de kuài.",
+    "nghia": "Chị gái chân dài nên chạy nhanh.",
+    "hsk": 2,
+    "related_word": "长",
+    "audio": "姐姐的腿长_跑得快.mp3"
+  },
+  {
+    "id": 208,
+    "hanzi": "我最爱唱歌了，我给你们唱一个。",
+    "pinyin": "Wǒ zuì ài chànggē le, wǒ gěi nǐmen chàng yí ge.",
+    "nghia": "Tôi thích hát nhất, để tôi hát cho các bạn nghe một bài.",
+    "hsk": 2,
+    "related_word": "唱歌",
+    "audio": "我最爱唱歌了_我给你们唱一个.mp3"
+  },
+  {
+    "id": 209,
+    "hanzi": "我已经走出火车站了。",
+    "pinyin": "Wǒ yǐjīng zǒu chū huǒchēzhàn le.",
+    "nghia": "Tôi đã đi ra khỏi ga tàu rồi.",
+    "hsk": 2,
+    "related_word": "出",
+    "audio": "我已经走出火车站了.mp3"
+  },
+  {
+    "id": 210,
+    "hanzi": "天冷了，多穿些衣服吧。",
+    "pinyin": "Tiān lěng le, duō chuān xiē yīfu ba.",
+    "nghia": "Trời lạnh rồi, mặc thêm quần áo vào đi.",
+    "hsk": 2,
+    "related_word": "穿",
+    "audio": "天冷了_多穿些衣服吧.mp3"
+  },
+  {
+    "id": 211,
+    "hanzi": "我去过一次北京。",
+    "pinyin": "Wǒ qù guo yí cì Běijīng.",
+    "nghia": "Tôi đã từng đi Bắc Kinh một lần.",
+    "hsk": 2,
+    "related_word": "次",
+    "audio": "我去过一次北京.mp3"
+  },
+  {
+    "id": 212,
+    "hanzi": "从我家到公司，开车要20分钟。",
+    "pinyin": "Cóng wǒ jiā dào gōngsī, kāichē yào èrshí fēnzhōng.",
+    "nghia": "Từ nhà tôi đến công ty, lái xe mất hai mươi phút.",
+    "hsk": 2,
+    "related_word": "从",
+    "audio": "从我家到公司_开车要20分钟.mp3"
+  },
+  {
+    "id": 213,
+    "hanzi": "对不起，我错了。",
+    "pinyin": "Duìbuqǐ, wǒ cuò le.",
+    "nghia": "Xin lỗi, tôi đã sai rồi.",
+    "hsk": 2,
+    "related_word": "错",
+    "audio": "对不起_我错了.mp3"
+  },
+  {
+    "id": 214,
+    "hanzi": "我每天下午都去打篮球。",
+    "pinyin": "Wǒ měitiān xiàwǔ dōu qù dǎ lánqiú.",
+    "nghia": "Chiều nào tôi cũng đi chơi bóng rổ.",
+    "hsk": 2,
+    "related_word": "打篮球",
+    "audio": "我每天下午都去打篮球.mp3"
+  },
+  {
+    "id": 215,
+    "hanzi": "请大家不要等我了。",
+    "pinyin": "Qǐng dàjiā bú yào děng wǒ le.",
+    "nghia": "Mọi người đừng đợi tôi nữa.",
+    "hsk": 2,
+    "related_word": "大家",
+    "audio": "请大家不要等我了.mp3"
+  },
+  {
+    "id": 216,
+    "hanzi": "我早上9点到公司。",
+    "pinyin": "Wǒ zǎoshang jiǔ diǎn dào gōngsī.",
+    "nghia": "Tôi đến công ty lúc chín giờ sáng.",
+    "hsk": 2,
+    "related_word": "到",
+    "audio": "我早上9点到公司.mp3"
+  },
+  {
+    "id": 217,
+    "hanzi": "你走得太快了。",
+    "pinyin": "Nǐ zǒu de tài kuài le.",
+    "nghia": "Bạn đi nhanh quá.",
+    "hsk": 2,
+    "related_word": "得",
+    "audio": "你走得太快了.mp3"
+  },
+  {
+    "id": 218,
+    "hanzi": "你还要再等我10分钟。",
+    "pinyin": "Nǐ hái yào zài děng wǒ shí fēnzhōng.",
+    "nghia": "Bạn phải đợi tôi thêm mười phút nữa.",
+    "hsk": 2,
+    "related_word": "等",
+    "audio": "你还要再等我10分钟.mp3"
+  },
+  {
+    "id": 219,
+    "hanzi": "在我们家，我最大，我下面还有两个弟弟。",
+    "pinyin": "Zài wǒmen jiā, wǒ zuì dà, wǒ xiàmiàn hái yǒu liǎng ge dìdi.",
+    "nghia": "Trong nhà tôi, tôi là lớn nhất, dưới tôi còn có hai em trai.",
+    "hsk": 2,
+    "related_word": "弟弟",
+    "audio": "在我们家_我最大_我下面还有两个弟弟.mp3"
+  },
+  {
+    "id": 220,
+    "hanzi": "这是我第一次见到他。",
+    "pinyin": "Zhè shì wǒ dì yī cì jiàndào tā.",
+    "nghia": "Đây là lần đầu tiên tôi gặp anh ấy.",
+    "hsk": 2,
+    "related_word": "第一",
+    "audio": "这是我第一次见到他.mp3"
+  },
+  {
+    "id": 221,
+    "hanzi": "你的意思我懂了。",
+    "pinyin": "Nǐ de yìsi wǒ dǒng le.",
+    "nghia": "Ý của bạn tôi hiểu rồi.",
+    "hsk": 2,
+    "related_word": "懂",
+    "audio": "你的意思我懂了.mp3"
+  },
+  {
+    "id": 222,
+    "hanzi": "你是对的，我错了。",
+    "pinyin": "Nǐ shì duì de, wǒ cuò le.",
+    "nghia": "Bạn đúng rồi, tôi sai rồi.",
+    "hsk": 2,
+    "related_word": "对",
+    "audio": "你是对的_我错了.mp3"
+  },
+  {
+    "id": 223,
+    "hanzi": "我们两个人住一个房间。",
+    "pinyin": "Wǒmen liǎng ge rén zhù yí ge fángjiān.",
+    "nghia": "Hai chúng tôi ở chung một phòng.",
+    "hsk": 2,
+    "related_word": "房间",
+    "audio": "我们两个人住一个房间.mp3"
+  },
+  {
+    "id": 224,
+    "hanzi": "奶奶非常喜欢我们送的礼物。",
+    "pinyin": "Nǎinai fēicháng xǐhuan wǒmen sòng de lǐwù.",
+    "nghia": "Bà nội rất thích món quà chúng tôi tặng.",
+    "hsk": 2,
+    "related_word": "非常",
+    "audio": "奶奶非常喜欢我们送的礼物.mp3"
+  },
+  {
+    "id": 225,
+    "hanzi": "我在饭馆做服务员。",
+    "pinyin": "Wǒ zài fànguǎn zuò fúwùyuán.",
+    "nghia": "Tôi làm phục vụ ở nhà hàng.",
+    "hsk": 2,
+    "related_word": "服务员",
+    "audio": "我在饭馆做服务员.mp3"
+  },
+  {
+    "id": 226,
+    "hanzi": "我比爸爸还高。",
+    "pinyin": "Wǒ bǐ bàba hái gāo.",
+    "nghia": "Tôi còn cao hơn cả bố.",
+    "hsk": 2,
+    "related_word": "高",
+    "audio": "我比爸爸还高.mp3"
+  },
+  {
+    "id": 227,
+    "hanzi": "你能告诉我学校怎么走吗？",
+    "pinyin": "Nǐ néng gàosu wǒ xuéxiào zěnme zǒu ma?",
+    "nghia": "Bạn có thể chỉ cho tôi đường đến trường không?",
+    "hsk": 2,
+    "related_word": "告诉",
+    "audio": "你能告诉我学校怎么走吗.mp3"
+  },
+  {
+    "id": 228,
+    "hanzi": "我哥哥比我大三岁。",
+    "pinyin": "Wǒ gēge bǐ wǒ dà sān suì.",
+    "nghia": "Anh trai tôi hơn tôi ba tuổi.",
+    "hsk": 2,
+    "related_word": "哥哥",
+    "audio": "我哥哥比我大三岁.mp3"
+  },
+  {
+    "id": 229,
+    "hanzi": "请把这本书给他。",
+    "pinyin": "Qǐng bǎ zhè běn shū gěi tā.",
+    "nghia": "Hãy đưa quyển sách này cho anh ấy.",
+    "hsk": 2,
+    "related_word": "给",
+    "audio": "请把这本书给他.mp3"
+  },
+  {
+    "id": 230,
+    "hanzi": "坐公共汽车去，要20分钟。",
+    "pinyin": "Zuò gōnggòng qìchē qù, yào èrshí fēnzhōng.",
+    "nghia": "Đi xe buýt mất hai mươi phút.",
+    "hsk": 2,
+    "related_word": "公共汽车",
+    "audio": "坐公共汽车去_要20分钟.mp3"
+  },
+  {
+    "id": 231,
+    "hanzi": "我在一个公司上班。",
+    "pinyin": "Wǒ zài yí ge gōngsī shàngbān.",
+    "nghia": "Tôi làm việc ở một công ty.",
+    "hsk": 2,
+    "related_word": "公司",
+    "audio": "我在一个公司上班.mp3"
+  },
+  {
+    "id": 232,
+    "hanzi": "女儿很喜欢小狗。",
+    "pinyin": "Nǚ'ér hěn xǐhuan xiǎo gǒu.",
+    "nghia": "Con gái rất thích chó con.",
+    "hsk": 2,
+    "related_word": "狗",
+    "audio": "女儿很喜欢小狗.mp3"
+  },
+  {
+    "id": 233,
+    "hanzi": "这块手表很贵。",
+    "pinyin": "Zhè kuài shǒubiǎo hěn guì.",
+    "nghia": "Chiếc đồng hồ đeo tay này rất đắt.",
+    "hsk": 2,
+    "related_word": "贵",
+    "audio": "这块手表很贵.mp3"
+  },
+  {
+    "id": 234,
+    "hanzi": "我没看过这本书。",
+    "pinyin": "Wǒ méi kàn guo zhè běn shū.",
+    "nghia": "Tôi chưa từng đọc quyển sách này.",
+    "hsk": 2,
+    "related_word": "过",
+    "audio": "我没看过这本书.mp3"
+  },
+  {
+    "id": 235,
+    "hanzi": "他还没来呢。",
+    "pinyin": "Tā hái méi lái ne.",
+    "nghia": "Anh ấy vẫn chưa đến.",
+    "hsk": 2,
+    "related_word": "还",
+    "audio": "他还没来呢.mp3"
+  },
+  {
+    "id": 236,
+    "hanzi": "除了不吃肉，我还不吃鸡蛋。",
+    "pinyin": "Chúle bù chī ròu, wǒ hái bù chī jīdàn.",
+    "nghia": "Ngoài việc không ăn thịt ra, tôi còn không ăn trứng.",
+    "hsk": 2,
+    "related_word": "还",
+    "audio": "除了不吃肉_我还不吃鸡蛋.mp3"
+  },
+  {
+    "id": 237,
+    "hanzi": "我有三个孩子。",
+    "pinyin": "Wǒ yǒu sān ge háizi.",
+    "nghia": "Tôi có ba đứa con.",
+    "hsk": 2,
+    "related_word": "孩子",
+    "audio": "我有三个孩子.mp3"
+  },
+  {
+    "id": 238,
+    "hanzi": "我们这里女孩子比男孩子多。",
+    "pinyin": "Wǒmen zhèlǐ nǚháizi bǐ nánháizi duō.",
+    "nghia": "Ở đây con gái nhiều hơn con trai.",
+    "hsk": 2,
+    "related_word": "孩子",
+    "audio": "我们这里女孩子比男孩子多.mp3"
+  },
+  {
+    "id": 239,
+    "hanzi": "您做的米饭真好吃。",
+    "pinyin": "Nín zuò de mǐfàn zhēn hǎochī.",
+    "nghia": "Cơm bác nấu thật ngon.",
+    "hsk": 2,
+    "related_word": "好吃",
+    "audio": "您做的米饭真好吃.mp3"
+  },
+  {
+    "id": 240,
+    "hanzi": "我不喜欢黑颜色的衣服。",
+    "pinyin": "Wǒ bù xǐhuan hēi yánsè de yīfu.",
+    "nghia": "Tôi không thích quần áo màu đen.",
+    "hsk": 2,
+    "related_word": "黑",
+    "audio": "我不喜欢黑颜色的衣服.mp3"
+  },
+  {
+    "id": 241,
+    "hanzi": "我的自行车是红色的。",
+    "pinyin": "Wǒ de zìxíngchē shì hóngsè de.",
+    "nghia": "Xe đạp của tôi màu đỏ.",
+    "hsk": 2,
+    "related_word": "红",
+    "audio": "我的自行车是红色的.mp3"
+  },
+  {
+    "id": 242,
+    "hanzi": "欢迎你们来我们家。",
+    "pinyin": "Huānyíng nǐmen lái wǒmen jiā.",
+    "nghia": "Chào mừng các bạn đến nhà chúng tôi.",
+    "hsk": 2,
+    "related_word": "欢迎",
+    "audio": "欢迎你们来我们家.mp3"
+  },
+  {
+    "id": 243,
+    "hanzi": "我能回答这个问题。",
+    "pinyin": "Wǒ néng huídá zhège wèntí.",
+    "nghia": "Tôi có thể trả lời câu hỏi này.",
+    "hsk": 2,
+    "related_word": "回答",
+    "audio": "我能回答这个问题.mp3"
+  },
+  {
+    "id": 244,
+    "hanzi": "我下午3点去火车站。",
+    "pinyin": "Wǒ xiàwǔ sān diǎn qù huǒchēzhàn.",
+    "nghia": "Ba giờ chiều tôi đi ga tàu.",
+    "hsk": 2,
+    "related_word": "火车站",
+    "audio": "我下午3点去火车站.mp3"
+  },
+  {
+    "id": 245,
+    "hanzi": "我在机场工作了三年了。",
+    "pinyin": "Wǒ zài jīchǎng gōngzuò le sān nián le.",
+    "nghia": "Tôi đã làm việc ở sân bay được ba năm rồi.",
+    "hsk": 2,
+    "related_word": "机场",
+    "audio": "我在机场工作了三年了.mp3"
+  },
+  {
+    "id": 246,
+    "hanzi": "我每天早上都要吃个鸡蛋。",
+    "pinyin": "Wǒ měitiān zǎoshang dōu yào chī ge jīdàn.",
+    "nghia": "Sáng nào tôi cũng ăn một quả trứng.",
+    "hsk": 2,
+    "related_word": "鸡蛋",
+    "audio": "我每天早上都要吃个鸡蛋.mp3"
+  },
+  {
+    "id": 247,
+    "hanzi": "这件衣服颜色非常好看。",
+    "pinyin": "Zhè jiàn yīfu yánsè fēicháng hǎokàn.",
+    "nghia": "Màu của chiếc áo này rất đẹp.",
+    "hsk": 2,
+    "related_word": "件",
+    "audio": "这件衣服颜色非常好看.mp3"
+  },
+  {
+    "id": 248,
+    "hanzi": "请大家都到教室去上课。",
+    "pinyin": "Qǐng dàjiā dōu dào jiàoshì qù shàngkè.",
+    "nghia": "Mời mọi người vào lớp học đi.",
+    "hsk": 2,
+    "related_word": "教室",
+    "audio": "请大家都到教室去上课.mp3"
+  },
+  {
+    "id": 249,
+    "hanzi": "我有两个姐姐。",
+    "pinyin": "Wǒ yǒu liǎng ge jiějie.",
+    "nghia": "Tôi có hai chị gái.",
+    "hsk": 2,
+    "related_word": "姐姐",
+    "audio": "我有两个姐姐.mp3"
+  },
+  {
+    "id": 250,
+    "hanzi": "我来介绍一下我的朋友。",
+    "pinyin": "Wǒ lái jièshào yíxià wǒ de péngyou.",
+    "nghia": "Để tôi giới thiệu bạn của tôi.",
+    "hsk": 2,
+    "related_word": "介绍",
+    "audio": "我来介绍一下我的朋友.mp3"
+  },
+  {
+    "id": 251,
+    "hanzi": "我马上要进机场了。",
+    "pinyin": "Wǒ mǎshàng yào jìn jīchǎng le.",
+    "nghia": "Tôi sắp vào sân bay rồi.",
+    "hsk": 2,
+    "related_word": "进",
+    "audio": "我马上要进机场了.mp3"
+  },
+  {
+    "id": 252,
+    "hanzi": "我们家离公司很近。",
+    "pinyin": "Wǒmen jiā lí gōngsī hěn jìn.",
+    "nghia": "Nhà chúng tôi gần công ty.",
+    "hsk": 2,
+    "related_word": "近",
+    "audio": "我们家离公司很近.mp3"
+  },
+  {
+    "id": 253,
+    "hanzi": "我就知道他会来的。我一到家就给他打电话。",
+    "pinyin": "Wǒ jiù zhīdào tā huì lái de. Wǒ yí dào jiā jiù gěi tā dǎ diànhuà.",
+    "nghia": "Tôi biết ngay là anh ấy sẽ đến mà. Tôi vừa về đến nhà là gọi điện cho anh ấy ngay.",
+    "hsk": 2,
+    "related_word": "就",
+    "audio": "我就知道他会来的_我一到家就给他打电话.mp3"
+  },
+  {
+    "id": 254,
+    "hanzi": "你觉得这本书怎么样？",
+    "pinyin": "Nǐ juéde zhè běn shū zěnmeyàng?",
+    "nghia": "Bạn thấy quyển sách này thế nào?",
+    "hsk": 2,
+    "related_word": "觉得",
+    "audio": "你觉得这本书怎么样.mp3"
+  },
+  {
+    "id": 255,
+    "hanzi": "您想喝咖啡，还是茶？",
+    "pinyin": "Nín xiǎng hē kāfēi, háishi chá?",
+    "nghia": "Bác muốn uống cà phê hay trà?",
+    "hsk": 2,
+    "related_word": "咖啡",
+    "audio": "您想喝咖啡_还是茶.mp3"
+  },
+  {
+    "id": 256,
+    "hanzi": "我们从第十课开始学习。",
+    "pinyin": "Wǒmen cóng dì shí kè kāishǐ xuéxí.",
+    "nghia": "Chúng ta bắt đầu học từ bài mười.",
+    "hsk": 2,
+    "related_word": "开始",
+    "audio": "我们从第十课开始学习.mp3"
+  },
+  {
+    "id": 257,
+    "hanzi": "为了准备考试，他每天都学习到很晚。",
+    "pinyin": "Wèile zhǔnbèi kǎoshì, tā měitiān dōu xuéxí dào hěn wǎn.",
+    "nghia": "Để chuẩn bị cho kỳ thi, ngày nào anh ấy cũng học đến rất khuya.",
+    "hsk": 2,
+    "related_word": "考试",
+    "audio": "为了准备考试_他每天都学习到很晚.mp3"
+  },
+  {
+    "id": 258,
+    "hanzi": "我可能不能去上班了。",
+    "pinyin": "Wǒ kěnéng bù néng qù shàngbān le.",
+    "nghia": "Có lẽ tôi không đi làm được nữa.",
+    "hsk": 2,
+    "related_word": "可能",
+    "audio": "我可能不能去上班了.mp3"
+  },
+  {
+    "id": 259,
+    "hanzi": "你可以开我的车去上班。",
+    "pinyin": "Nǐ kěyǐ kāi wǒ de chē qù shàngbān.",
+    "nghia": "Bạn có thể lái xe của tôi đi làm.",
+    "hsk": 2,
+    "related_word": "可以",
+    "audio": "你可以开我的车去上班.mp3"
+  },
+  {
+    "id": 260,
+    "hanzi": "今天我们学习第一课。现在，我们上课。",
+    "pinyin": "Jīntiān wǒmen xuéxí dì yī kè. Xiànzài, wǒmen shàngkè.",
+    "nghia": "Hôm nay chúng ta học bài một. Bây giờ, chúng ta vào học.",
+    "hsk": 2,
+    "related_word": "课",
+    "audio": "今天我们学习第一课_现在_我们上课.mp3"
+  },
+  {
+    "id": 261,
+    "hanzi": "他跑得真快。7点50了，快上课了。",
+    "pinyin": "Tā pǎo de zhēn kuài. Qī diǎn wǔshí le, kuài shàngkè le.",
+    "nghia": "Anh ấy chạy thật nhanh. Bảy giờ năm mươi rồi, sắp vào học rồi.",
+    "hsk": 2,
+    "related_word": "快",
+    "audio": "他跑得真快_7点50了_快上课了.mp3"
+  },
+  {
+    "id": 262,
+    "hanzi": "祝你生日快乐！",
+    "pinyin": "Zhù nǐ shēngrì kuàilè!",
+    "nghia": "Chúc mừng sinh nhật bạn!",
+    "hsk": 2,
+    "related_word": "快乐",
+    "audio": "祝你生日快乐.mp3"
+  },
+  {
+    "id": 263,
+    "hanzi": "我累了，想休息。",
+    "pinyin": "Wǒ lèi le, xiǎng xiūxi.",
+    "nghia": "Tôi mệt rồi, muốn nghỉ ngơi.",
+    "hsk": 2,
+    "related_word": "累",
+    "audio": "我累了_想休息.mp3"
+  },
+  {
+    "id": 264,
+    "hanzi": "我家离学校很近。",
+    "pinyin": "Wǒ jiā lí xuéxiào hěn jìn.",
+    "nghia": "Nhà tôi gần trường học.",
+    "hsk": 2,
+    "related_word": "离",
+    "audio": "我家离学校很近.mp3"
+  },
+  {
+    "id": 265,
+    "hanzi": "苹果两块钱一斤。",
+    "pinyin": "Píngguǒ liǎng kuài qián yì jīn.",
+    "nghia": "Táo giá hai tệ một cân.",
+    "hsk": 2,
+    "related_word": "两",
+    "audio": "苹果两块钱一斤.mp3"
+  },
+  {
+    "id": 266,
+    "hanzi": "我每天走路去上学。我们可以坐10路公共汽车去。",
+    "pinyin": "Wǒ měitiān zǒulù qù shàngxué. Wǒmen kěyǐ zuò shí lù gōnggòng qìchē qù.",
+    "nghia": "Ngày nào tôi cũng đi bộ đến trường. Chúng ta có thể đi bằng xe buýt tuyến số 10.",
+    "hsk": 2,
+    "related_word": "路",
+    "audio": "我每天走路去上学_我们可以坐10路公共汽车去.mp3"
+  },
+  {
+    "id": 267,
+    "hanzi": "我们开车去旅游。",
+    "pinyin": "Wǒmen kāichē qù lǚyóu.",
+    "nghia": "Chúng tôi lái xe đi du lịch.",
+    "hsk": 2,
+    "related_word": "旅游",
+    "audio": "我们开车去旅游.mp3"
+  },
+  {
+    "id": 268,
+    "hanzi": "这个商店卖的东西比较便宜。",
+    "pinyin": "Zhège shāngdiàn mài de dōngxi bǐjiào piányi.",
+    "nghia": "Đồ bán ở cửa hàng này khá rẻ.",
+    "hsk": 2,
+    "related_word": "卖",
+    "audio": "这个商店卖的东西比较便宜.mp3"
+  },
+  {
+    "id": 269,
+    "hanzi": "我们走得很慢。",
+    "pinyin": "Wǒmen zǒu de hěn màn.",
+    "nghia": "Chúng tôi đi rất chậm.",
+    "hsk": 2,
+    "related_word": "慢",
+    "audio": "我们走得很慢.mp3"
+  },
+  {
+    "id": 270,
+    "hanzi": "这个星期，我很忙。你在忙什么呢？",
+    "pinyin": "Zhège xīngqī, wǒ hěn máng. Nǐ zài máng shénme ne?",
+    "nghia": "Tuần này tôi rất bận. Bạn đang bận gì vậy?",
+    "hsk": 2,
+    "related_word": "忙",
+    "audio": "这个星期_我很忙_你在忙什么呢.mp3"
+  },
+  {
+    "id": 271,
+    "hanzi": "你的小猫去哪儿了？",
+    "pinyin": "Nǐ de xiǎo māo qù nǎr le?",
+    "nghia": "Con mèo con của bạn đi đâu rồi?",
+    "hsk": 2,
+    "related_word": "猫",
+    "audio": "你的小猫去哪儿了.mp3"
+  },
+  {
+    "id": 272,
+    "hanzi": "你每天都看报纸吗？",
+    "pinyin": "Nǐ měitiān dōu kàn bàozhǐ ma?",
+    "nghia": "Ngày nào bạn cũng đọc báo à?",
+    "hsk": 2,
+    "related_word": "每",
+    "audio": "你每天都看报纸吗.mp3"
+  },
+  {
+    "id": 273,
+    "hanzi": "我有两个妹妹。",
+    "pinyin": "Wǒ yǒu liǎng ge mèimei.",
+    "nghia": "Tôi có hai em gái.",
+    "hsk": 2,
+    "related_word": "妹妹",
+    "audio": "我有两个妹妹.mp3"
+  },
+  {
+    "id": 274,
+    "hanzi": "我在门外等你。",
+    "pinyin": "Wǒ zài mén wài děng nǐ.",
+    "nghia": "Tôi đợi bạn ở ngoài cửa.",
+    "hsk": 2,
+    "related_word": "门",
+    "audio": "我在门外等你.mp3"
+  },
+  {
+    "id": 275,
+    "hanzi": "我不认识那个男人。",
+    "pinyin": "Wǒ bú rènshi nàge nánrén.",
+    "nghia": "Tôi không quen người đàn ông đó.",
+    "hsk": 2,
+    "related_word": "男",
+    "audio": "我不认识那个男人.mp3"
+  },
+  {
+    "id": 276,
+    "hanzi": "老师，您好！",
+    "pinyin": "Lǎoshī, nín hǎo!",
+    "nghia": "Chào thầy/cô ạ!",
+    "hsk": 2,
+    "related_word": "您",
+    "audio": "老师_您好.mp3"
+  },
+  {
+    "id": 277,
+    "hanzi": "睡觉前喝杯牛奶吧。",
+    "pinyin": "Shuìjiào qián hē bēi niúnǎi ba.",
+    "nghia": "Trước khi ngủ hãy uống một cốc sữa nhé.",
+    "hsk": 2,
+    "related_word": "牛奶",
+    "audio": "睡觉前喝杯牛奶吧.mp3"
+  },
+  {
+    "id": 278,
+    "hanzi": "那个女人你认识吗？",
+    "pinyin": "Nàge nǚrén nǐ rènshi ma?",
+    "nghia": "Người phụ nữ đó bạn có quen không?",
+    "hsk": 2,
+    "related_word": "女",
+    "audio": "那个女人你认识吗.mp3"
+  },
+  {
+    "id": 279,
+    "hanzi": "爸爸在我旁边。",
+    "pinyin": "Bàba zài wǒ pángbiān.",
+    "nghia": "Bố ở bên cạnh tôi.",
+    "hsk": 2,
+    "related_word": "旁边",
+    "audio": "爸爸在我旁边.mp3"
+  },
+  {
+    "id": 280,
+    "hanzi": "我每天早上都跑步。",
+    "pinyin": "Wǒ měitiān zǎoshang dōu pǎobù.",
+    "nghia": "Sáng nào tôi cũng chạy bộ.",
+    "hsk": 2,
+    "related_word": "跑步",
+    "audio": "我每天早上都跑步.mp3"
+  },
+  {
+    "id": 281,
+    "hanzi": "苹果很便宜，我们买点儿吧。",
+    "pinyin": "Píngguǒ hěn piányi, wǒmen mǎi diǎnr ba.",
+    "nghia": "Táo rẻ lắm, chúng ta mua ít đi.",
+    "hsk": 2,
+    "related_word": "便宜",
+    "audio": "苹果很便宜_我们买点儿吧.mp3"
+  },
+  {
+    "id": 282,
+    "hanzi": "我要去火车站买车票。",
+    "pinyin": "Wǒ yào qù huǒchēzhàn mǎi chēpiào.",
+    "nghia": "Tôi phải đi ga tàu mua vé.",
+    "hsk": 2,
+    "related_word": "票",
+    "audio": "我要去火车站买车票.mp3"
+  },
+  {
+    "id": 283,
+    "hanzi": "我妻子上班去了。",
+    "pinyin": "Wǒ qīzi shàngbān qù le.",
+    "nghia": "Vợ tôi đi làm rồi.",
+    "hsk": 2,
+    "related_word": "妻子",
+    "audio": "我妻子上班去了.mp3"
+  },
+  {
+    "id": 284,
+    "hanzi": "我早上七点起床。",
+    "pinyin": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+    "nghia": "Tôi dậy lúc bảy giờ sáng.",
+    "hsk": 2,
+    "related_word": "起床",
+    "audio": "我早上七点起床.mp3"
+  },
+  {
+    "id": 285,
+    "hanzi": "这个手机一千元。",
+    "pinyin": "Zhège shǒujī yìqiān yuán.",
+    "nghia": "Chiếc điện thoại này giá một nghìn tệ.",
+    "hsk": 2,
+    "related_word": "千",
+    "audio": "这个手机一千元.mp3"
+  },
+  {
+    "id": 286,
+    "hanzi": "你看见我的铅笔了吗？",
+    "pinyin": "Nǐ kànjiàn wǒ de qiānbǐ le ma?",
+    "nghia": "Bạn có thấy bút chì của tôi không?",
+    "hsk": 2,
+    "related_word": "铅笔",
+    "audio": "你看见我的铅笔了吗.mp3"
+  },
+  {
+    "id": 287,
+    "hanzi": "今天是晴天。",
+    "pinyin": "Jīntiān shì qíngtiān.",
+    "nghia": "Hôm nay trời nắng.",
+    "hsk": 2,
+    "related_word": "晴",
+    "audio": "今天是晴天.mp3"
+  },
+  {
+    "id": 288,
+    "hanzi": "我是去年8月来北京的。",
+    "pinyin": "Wǒ shì qùnián bā yuè lái Běijīng de.",
+    "nghia": "Tôi đến Bắc Kinh vào tháng 8 năm ngoái.",
+    "hsk": 2,
+    "related_word": "去年",
+    "audio": "我是去年8月来北京的.mp3"
+  },
+  {
+    "id": 289,
+    "hanzi": "他爸爸不让他来。",
+    "pinyin": "Tā bàba bú ràng tā lái.",
+    "nghia": "Bố anh ấy không cho anh ấy đến.",
+    "hsk": 2,
+    "related_word": "让",
+    "audio": "他爸爸不让他来.mp3"
+  },
+  {
+    "id": 290,
+    "hanzi": "今天是2012年2月26日。",
+    "pinyin": "Jīntiān shì èr líng yī èr nián èr yuè èrshíliù rì.",
+    "nghia": "Hôm nay là ngày 26 tháng 2 năm 2012.",
+    "hsk": 2,
+    "related_word": "日",
+    "audio": "今天是2012年2月26日.mp3"
+  },
+  {
+    "id": 291,
+    "hanzi": "我七点半去上班。",
+    "pinyin": "Wǒ qī diǎn bàn qù shàngbān.",
+    "nghia": "Tôi đi làm lúc bảy giờ rưỡi.",
+    "hsk": 2,
+    "related_word": "上班",
+    "audio": "我七点半去上班.mp3"
+  },
+  {
+    "id": 292,
+    "hanzi": "今天我的身体不太舒服。",
+    "pinyin": "Jīntiān wǒ de shēntǐ bú tài shūfu.",
+    "nghia": "Hôm nay tôi thấy trong người không được khỏe lắm.",
+    "hsk": 2,
+    "related_word": "身体",
+    "audio": "今天我的身体不太舒服.mp3"
+  },
+  {
+    "id": 293,
+    "hanzi": "我生病了，不能去上班了。",
+    "pinyin": "Wǒ shēngbìng le, bù néng qù shàngbān le.",
+    "nghia": "Tôi bị ốm rồi, không thể đi làm được nữa.",
+    "hsk": 2,
+    "related_word": "生病",
+    "audio": "我生病了_不能去上班了.mp3"
+  },
+  {
+    "id": 294,
+    "hanzi": "我没时间去北京。",
+    "pinyin": "Wǒ méi shíjiān qù Běijīng.",
+    "nghia": "Tôi không có thời gian đi Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "时间",
+    "audio": "我没时间去北京.mp3"
+  },
+  {
+    "id": 295,
+    "hanzi": "你下午有什么事情吗？",
+    "pinyin": "Nǐ xiàwǔ yǒu shénme shìqing ma?",
+    "nghia": "Chiều nay bạn có việc gì không?",
+    "hsk": 2,
+    "related_word": "事情",
+    "audio": "你下午有什么事情吗.mp3"
+  },
+  {
+    "id": 296,
+    "hanzi": "这块手表非常漂亮。",
+    "pinyin": "Zhè kuài shǒubiǎo fēicháng piàoliang.",
+    "nghia": "Chiếc đồng hồ này rất đẹp.",
+    "hsk": 2,
+    "related_word": "手表",
+    "audio": "这块手表非常漂亮.mp3"
+  },
+  {
+    "id": 297,
+    "hanzi": "你看，我新买了一个手机。",
+    "pinyin": "Nǐ kàn, wǒ xīn mǎi le yí ge shǒujī.",
+    "nghia": "Bạn xem này, tôi vừa mua một chiếc điện thoại mới.",
+    "hsk": 2,
+    "related_word": "手机",
+    "audio": "你看_我新买了一个手机.mp3"
+  },
+  {
+    "id": 298,
+    "hanzi": "我送你一本书。",
+    "pinyin": "Wǒ sòng nǐ yì běn shū.",
+    "nghia": "Tôi tặng bạn một quyển sách.",
+    "hsk": 2,
+    "related_word": "送",
+    "audio": "我送你一本书.mp3"
+  },
+  {
+    "id": 299,
+    "hanzi": "虽然下雨了，但是我们还是想去看电影。",
+    "pinyin": "Suīrán xiàyǔ le, dànshì wǒmen háishi xiǎng qù kàn diànyǐng.",
+    "nghia": "Tuy trời mưa nhưng chúng tôi vẫn muốn đi xem phim.",
+    "hsk": 2,
+    "related_word": "虽然……但是……",
+    "audio": "虽然下雨了_但是我们还是想去看电影.mp3"
+  },
+  {
+    "id": 300,
+    "hanzi": "我知道小猫在哪儿，它在桌子下面。",
+    "pinyin": "Wǒ zhīdào xiǎo māo zài nǎr, tā zài zhuōzi xiàmiàn.",
+    "nghia": "Tôi biết con mèo con ở đâu, nó ở dưới gầm bàn.",
+    "hsk": 2,
+    "related_word": "它",
+    "audio": "我知道小猫在哪儿_它在桌子下面.mp3"
+  },
+  {
+    "id": 301,
+    "hanzi": "我和同学们在踢足球。",
+    "pinyin": "Wǒ hé tóngxuémen zài tī zúqiú.",
+    "nghia": "Tôi và các bạn học đang đá bóng.",
+    "hsk": 2,
+    "related_word": "踢足球",
+    "audio": "我和同学们在踢足球.mp3"
+  },
+  {
+    "id": 302,
+    "hanzi": "这个题我不会做。",
+    "pinyin": "Zhège tí wǒ bú huì zuò.",
+    "nghia": "Bài tập này tôi không biết làm.",
+    "hsk": 2,
+    "related_word": "题",
+    "audio": "这个题我不会做.mp3"
+  },
+  {
+    "id": 303,
+    "hanzi": "妹妹会唱歌，也会跳舞。",
+    "pinyin": "Mèimei huì chànggē, yě huì tiàowǔ.",
+    "nghia": "Em gái biết hát, cũng biết nhảy múa.",
+    "hsk": 2,
+    "related_word": "跳舞",
+    "audio": "妹妹会唱歌_也会跳舞.mp3"
+  },
+  {
+    "id": 304,
+    "hanzi": "外面下雨了。",
+    "pinyin": "Wàimiàn xiàyǔ le.",
+    "nghia": "Bên ngoài trời mưa rồi.",
+    "hsk": 2,
+    "related_word": "外",
+    "audio": "外面下雨了.mp3"
+  },
+  {
+    "id": 305,
+    "hanzi": "这本书我看完了。",
+    "pinyin": "Zhè běn shū wǒ kàn wán le.",
+    "nghia": "Quyển sách này tôi đã đọc xong rồi.",
+    "hsk": 2,
+    "related_word": "完",
+    "audio": "这本书我看完了.mp3"
+  },
+  {
+    "id": 306,
+    "hanzi": "他在玩，没有学习。",
+    "pinyin": "Tā zài wán, méiyǒu xuéxí.",
+    "nghia": "Anh ấy đang chơi, không học bài.",
+    "hsk": 2,
+    "related_word": "玩",
+    "audio": "他在玩_没有学习.mp3"
+  },
+  {
+    "id": 307,
+    "hanzi": "今天晚上我不能看电视了。",
+    "pinyin": "Jīntiān wǎnshang wǒ bù néng kàn diànshì le.",
+    "nghia": "Tối nay tôi không xem tivi được nữa.",
+    "hsk": 2,
+    "related_word": "晚上",
+    "audio": "今天晚上我不能看电视了.mp3"
+  },
+  {
+    "id": 308,
+    "hanzi": "你为什么不喝点儿水呢？",
+    "pinyin": "Nǐ wèishénme bù hē diǎnr shuǐ ne?",
+    "nghia": "Sao bạn không uống chút nước?",
+    "hsk": 2,
+    "related_word": "为什么",
+    "audio": "你为什么不喝点儿水呢.mp3"
+  },
+  {
+    "id": 309,
+    "hanzi": "老师，我可以问你一个问题吗？",
+    "pinyin": "Lǎoshī, wǒ kěyǐ wèn nǐ yí ge wèntí ma?",
+    "nghia": "Thầy/cô ơi, em có thể hỏi thầy/cô một câu hỏi không?",
+    "hsk": 2,
+    "related_word": "问",
+    "audio": "老师_我可以问你一个问题吗.mp3"
+  },
+  {
+    "id": 310,
+    "hanzi": "这个问题太难了！",
+    "pinyin": "Zhège wèntí tài nán le!",
+    "nghia": "Câu hỏi này khó quá!",
+    "hsk": 2,
+    "related_word": "问题",
+    "audio": "这个问题太难了.mp3"
+  },
+  {
+    "id": 311,
+    "hanzi": "请吃块儿西瓜。",
+    "pinyin": "Qǐng chī kuàir xīguā.",
+    "nghia": "Mời bạn ăn miếng dưa hấu.",
+    "hsk": 2,
+    "related_word": "西瓜",
+    "audio": "请吃块儿西瓜.mp3"
+  },
+  {
+    "id": 312,
+    "hanzi": "我希望你别走了。",
+    "pinyin": "Wǒ xīwàng nǐ bié zǒu le.",
+    "nghia": "Tôi mong bạn đừng đi nữa.",
+    "hsk": 2,
+    "related_word": "希望",
+    "audio": "我希望你别走了.mp3"
+  },
+  {
+    "id": 313,
+    "hanzi": "今天我要洗很多衣服。",
+    "pinyin": "Jīntiān wǒ yào xǐ hěn duō yīfu.",
+    "nghia": "Hôm nay tôi phải giặt rất nhiều quần áo.",
+    "hsk": 2,
+    "related_word": "洗",
+    "audio": "今天我要洗很多衣服.mp3"
+  },
+  {
+    "id": 314,
+    "hanzi": "我看了一小时的书。",
+    "pinyin": "Wǒ kàn le yì xiǎoshí de shū.",
+    "nghia": "Tôi đã đọc sách một tiếng đồng hồ.",
+    "hsk": 2,
+    "related_word": "小时",
+    "audio": "我看了一小时的书.mp3"
+  },
+  {
+    "id": 315,
+    "hanzi": "听到他这么说，我们都笑了。",
+    "pinyin": "Tīngdào tā zhème shuō, wǒmen dōu xiào le.",
+    "nghia": "Nghe anh ấy nói vậy, chúng tôi đều bật cười.",
+    "hsk": 2,
+    "related_word": "笑",
+    "audio": "听到他这么说_我们都笑了.mp3"
+  },
+  {
+    "id": 316,
+    "hanzi": "这是我买的新衣服。",
+    "pinyin": "Zhè shì wǒ mǎi de xīn yīfu.",
+    "nghia": "Đây là bộ quần áo mới tôi mới mua.",
+    "hsk": 2,
+    "related_word": "新",
+    "audio": "这是我买的新衣服.mp3"
+  },
+  {
+    "id": 317,
+    "hanzi": "中国人的姓在名字的前面。我姓张。",
+    "pinyin": "Zhōngguórén de xìng zài míngzi de qiánmiàn. Wǒ xìng Zhāng.",
+    "nghia": "Họ của người Trung Quốc đứng trước tên. Tôi họ Trương.",
+    "hsk": 2,
+    "related_word": "姓",
+    "audio": "中国人的姓在名字的前面_我姓张.mp3"
+  },
+  {
+    "id": 318,
+    "hanzi": "太累了，让我休息一下。",
+    "pinyin": "Tài lèi le, ràng wǒ xiūxi yíxià.",
+    "nghia": "Mệt quá, để tôi nghỉ một chút.",
+    "hsk": 2,
+    "related_word": "休息",
+    "audio": "太累了_让我休息一下.mp3"
+  },
+  {
+    "id": 319,
+    "hanzi": "今年冬天下了几次大雪。",
+    "pinyin": "Jīnnián dōngtiān xià le jǐ cì dàxuě.",
+    "nghia": "Mùa đông năm nay đã có mấy trận tuyết lớn.",
+    "hsk": 2,
+    "related_word": "雪",
+    "audio": "今年冬天下了几次大雪.mp3"
+  },
+  {
+    "id": 320,
+    "hanzi": "你喜欢哪种颜色？",
+    "pinyin": "Nǐ xǐhuan nǎ zhǒng yánsè?",
+    "nghia": "Bạn thích màu nào?",
+    "hsk": 2,
+    "related_word": "颜色",
+    "audio": "你喜欢哪种颜色.mp3"
+  },
+  {
+    "id": 321,
+    "hanzi": "我的眼睛是黑色的。",
+    "pinyin": "Wǒ de yǎnjing shì hēisè de.",
+    "nghia": "Mắt tôi màu đen.",
+    "hsk": 2,
+    "related_word": "眼睛",
+    "audio": "我的眼睛是黑色的.mp3"
+  },
+  {
+    "id": 322,
+    "hanzi": "有些人不爱吃羊肉。",
+    "pinyin": "Yǒuxiē rén bú ài chī yángròu.",
+    "nghia": "Có một số người không thích ăn thịt cừu.",
+    "hsk": 2,
+    "related_word": "羊肉",
+    "audio": "有些人不爱吃羊肉.mp3"
+  },
+  {
+    "id": 323,
+    "hanzi": "这个药一天吃三次。",
+    "pinyin": "Zhège yào yìtiān chī sān cì.",
+    "nghia": "Thuốc này uống ba lần một ngày.",
+    "hsk": 2,
+    "related_word": "药",
+    "audio": "这个药一天吃三次.mp3"
+  },
+  {
+    "id": 324,
+    "hanzi": "我要去北京。",
+    "pinyin": "Wǒ yào qù Běijīng.",
+    "nghia": "Tôi muốn đi Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "要",
+    "audio": "我要去北京.mp3"
+  },
+  {
+    "id": 325,
+    "hanzi": "妈妈要我去买菜。",
+    "pinyin": "Māma yào wǒ qù mǎi cài.",
+    "nghia": "Mẹ bảo tôi đi mua rau.",
+    "hsk": 2,
+    "related_word": "要",
+    "audio": "妈妈要我去买菜.mp3"
+  },
+  {
+    "id": 326,
+    "hanzi": "你要认真地做这件事。",
+    "pinyin": "Nǐ yào rènzhēn de zuò zhè jiàn shì.",
+    "nghia": "Bạn phải làm việc này một cách nghiêm túc.",
+    "hsk": 2,
+    "related_word": "要",
+    "audio": "你要认真地做这件事.mp3"
+  },
+  {
+    "id": 327,
+    "hanzi": "要下雨了。",
+    "pinyin": "Yào xiàyǔ le.",
+    "nghia": "Trời sắp mưa rồi.",
+    "hsk": 2,
+    "related_word": "要",
+    "audio": "要下雨了.mp3"
+  },
+  {
+    "id": 328,
+    "hanzi": "一斤菜要两块钱。",
+    "pinyin": "Yì jīn cài yào liǎng kuài qián.",
+    "nghia": "Một cân rau giá hai tệ.",
+    "hsk": 2,
+    "related_word": "要",
+    "audio": "一斤菜要两块钱.mp3"
+  },
+  {
+    "id": 329,
+    "hanzi": "你去，我也去。",
+    "pinyin": "Nǐ qù, wǒ yě qù.",
+    "nghia": "Bạn đi thì tôi cũng đi.",
+    "hsk": 2,
+    "related_word": "也",
+    "audio": "你去_我也去.mp3"
+  },
+  {
+    "id": 330,
+    "hanzi": "请等我一下。",
+    "pinyin": "Qǐng děng wǒ yíxià.",
+    "nghia": "Xin đợi tôi một chút.",
+    "hsk": 2,
+    "related_word": "一下",
+    "audio": "请等我一下.mp3"
+  },
+  {
+    "id": 331,
+    "hanzi": "我和你一起去北京。",
+    "pinyin": "Wǒ hé nǐ yìqǐ qù Běijīng.",
+    "nghia": "Tôi cùng bạn đi Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "一起",
+    "audio": "我和你一起去北京.mp3"
+  },
+  {
+    "id": 332,
+    "hanzi": "我们已经吃完饭了。",
+    "pinyin": "Wǒmen yǐjīng chī wán fàn le.",
+    "nghia": "Chúng tôi đã ăn cơm xong rồi.",
+    "hsk": 2,
+    "related_word": "已经",
+    "audio": "我们已经吃完饭了.mp3"
+  },
+  {
+    "id": 333,
+    "hanzi": "这个词是什么意思？",
+    "pinyin": "Zhège cí shì shénme yìsi?",
+    "nghia": "Từ này nghĩa là gì?",
+    "hsk": 2,
+    "related_word": "意思",
+    "audio": "这个词是什么意思.mp3"
+  },
+  {
+    "id": 334,
+    "hanzi": "把你的意思告诉我吧。",
+    "pinyin": "Bǎ nǐ de yìsi gàosu wǒ ba.",
+    "nghia": "Hãy nói cho tôi biết ý của bạn đi.",
+    "hsk": 2,
+    "related_word": "意思",
+    "audio": "把你的意思告诉我吧.mp3"
+  },
+  {
+    "id": 335,
+    "hanzi": "这个电影真有意思。",
+    "pinyin": "Zhège diànyǐng zhēn yǒuyìsi.",
+    "nghia": "Bộ phim này thật thú vị.",
+    "hsk": 2,
+    "related_word": "意思",
+    "audio": "这个电影真有意思.mp3"
+  },
+  {
+    "id": 336,
+    "hanzi": "因为下雨了，所以我没去跑步。",
+    "pinyin": "Yīnwèi xiàyǔ le, suǒyǐ wǒ méi qù pǎobù.",
+    "nghia": "Vì trời mưa nên tôi không đi chạy bộ.",
+    "hsk": 2,
+    "related_word": "因为……所以……",
+    "audio": "因为下雨了_所以我没去跑步.mp3"
+  },
+  {
+    "id": 337,
+    "hanzi": "今天是阴天。",
+    "pinyin": "Jīntiān shì yīntiān.",
+    "nghia": "Hôm nay trời âm u.",
+    "hsk": 2,
+    "related_word": "阴",
+    "audio": "今天是阴天.mp3"
+  },
+  {
+    "id": 338,
+    "hanzi": "我会游泳了。",
+    "pinyin": "Wǒ huì yóuyǒng le.",
+    "nghia": "Tôi biết bơi rồi.",
+    "hsk": 2,
+    "related_word": "游泳",
+    "audio": "我会游泳了.mp3"
+  },
+  {
+    "id": 339,
+    "hanzi": "王医生右边那个人是谁？",
+    "pinyin": "Wáng yīshēng yòubian nàge rén shì shéi?",
+    "nghia": "Người ở bên phải bác sĩ Vương là ai?",
+    "hsk": 2,
+    "related_word": "右边",
+    "audio": "王医生右边那个人是谁.mp3"
+  },
+  {
+    "id": 340,
+    "hanzi": "水里有很多鱼。",
+    "pinyin": "Shuǐ lǐ yǒu hěn duō yú.",
+    "nghia": "Dưới nước có rất nhiều cá.",
+    "hsk": 2,
+    "related_word": "鱼",
+    "audio": "水里有很多鱼.mp3"
+  },
+  {
+    "id": 341,
+    "hanzi": "我家离公司很远。",
+    "pinyin": "Wǒ jiā lí gōngsī hěn yuǎn.",
+    "nghia": "Nhà tôi cách công ty rất xa.",
+    "hsk": 2,
+    "related_word": "远",
+    "audio": "我家离公司很远.mp3"
+  },
+  {
+    "id": 342,
+    "hanzi": "我们都很喜欢运动。",
+    "pinyin": "Wǒmen dōu hěn xǐhuan yùndòng.",
+    "nghia": "Chúng tôi đều rất thích vận động thể thao.",
+    "hsk": 2,
+    "related_word": "运动",
+    "audio": "我们都很喜欢运动.mp3"
+  },
+  {
+    "id": 343,
+    "hanzi": "我吃完饭再去商店。再高点儿，现在太低了。",
+    "pinyin": "Wǒ chī wán fàn zài qù shāngdiàn. Zài gāo diǎnr, xiànzài tài dī le.",
+    "nghia": "Tôi ăn cơm xong rồi mới đi cửa hàng. Cao thêm chút nữa, bây giờ thấp quá.",
+    "hsk": 2,
+    "related_word": "再",
+    "audio": "我吃完饭再去商店_再高点儿_现在太低了.mp3"
+  },
+  {
+    "id": 344,
+    "hanzi": "我早上看见过他。",
+    "pinyin": "Wǒ zǎoshang kànjiàn guo tā.",
+    "nghia": "Sáng nay tôi đã nhìn thấy anh ấy.",
+    "hsk": 2,
+    "related_word": "早上",
+    "audio": "我早上看见过他.mp3"
+  },
+  {
+    "id": 345,
+    "hanzi": "我丈夫在医院工作。",
+    "pinyin": "Wǒ zhàngfu zài yīyuàn gōngzuò.",
+    "nghia": "Chồng tôi làm việc ở bệnh viện.",
+    "hsk": 2,
+    "related_word": "丈夫",
+    "audio": "我丈夫在医院工作.mp3"
+  },
+  {
+    "id": 346,
+    "hanzi": "他想找一个工作。",
+    "pinyin": "Tā xiǎng zhǎo yí ge gōngzuò.",
+    "nghia": "Anh ấy muốn tìm một công việc.",
+    "hsk": 2,
+    "related_word": "找",
+    "audio": "他想找一个工作.mp3"
+  },
+  {
+    "id": 347,
+    "hanzi": "这个人真高。",
+    "pinyin": "Zhège rén zhēn gāo.",
+    "nghia": "Người này cao thật.",
+    "hsk": 2,
+    "related_word": "真",
+    "audio": "这个人真高.mp3"
+  },
+  {
+    "id": 348,
+    "hanzi": "弟弟正在打篮球。",
+    "pinyin": "Dìdi zhèngzài dǎ lánqiú.",
+    "nghia": "Em trai đang chơi bóng rổ.",
+    "hsk": 2,
+    "related_word": "正在",
+    "audio": "弟弟正在打篮球.mp3"
+  },
+  {
+    "id": 349,
+    "hanzi": "我不知道他现在在哪里。",
+    "pinyin": "Wǒ bù zhīdào tā xiànzài zài nǎlǐ.",
+    "nghia": "Tôi không biết bây giờ anh ấy đang ở đâu.",
+    "hsk": 2,
+    "related_word": "知道",
+    "audio": "我不知道他现在在哪里.mp3"
+  },
+  {
+    "id": 350,
+    "hanzi": "我准备星期日去北京。",
+    "pinyin": "Wǒ zhǔnbèi xīngqīrì qù Běijīng.",
+    "nghia": "Tôi định chủ nhật đi Bắc Kinh.",
+    "hsk": 2,
+    "related_word": "准备",
+    "audio": "我准备星期日去北京.mp3"
+  },
+  {
+    "id": 351,
+    "hanzi": "这是我新买的自行车。",
+    "pinyin": "Zhè shì wǒ xīn mǎi de zìxíngchē.",
+    "nghia": "Đây là chiếc xe đạp tôi mới mua.",
+    "hsk": 2,
+    "related_word": "自行车",
+    "audio": "这是我新买的自行车.mp3"
+  },
+  {
+    "id": 352,
+    "hanzi": "我女儿9个月就会走了。我走了，再见！",
+    "pinyin": "Wǒ nǚ'ér jiǔ ge yuè jiù huì zǒu le. Wǒ zǒu le, zàijiàn!",
+    "nghia": "Con gái tôi mới 9 tháng đã biết đi rồi. Tôi đi đây, tạm biệt!",
+    "hsk": 2,
+    "related_word": "走",
+    "audio": "我女儿9个月就会走了_我走了_再见.mp3"
+  },
+  {
+    "id": 353,
+    "hanzi": "她是我最好的朋友。",
+    "pinyin": "Tā shì wǒ zuì hǎo de péngyou.",
+    "nghia": "Cô ấy là bạn thân nhất của tôi.",
+    "hsk": 2,
+    "related_word": "最",
+    "audio": "她是我最好的朋友.mp3"
+  },
+  {
+    "id": 354,
+    "hanzi": "左边的那个杯子是你的，右边的是我的。",
+    "pinyin": "Zuǒbian de nàge bēizi shì nǐ de, yòubian de shì wǒ de.",
+    "nghia": "Cái cốc bên trái là của bạn, cái bên phải là của tôi.",
+    "hsk": 2,
+    "related_word": "左边",
+    "audio": "左边的那个杯子是你的_右边的是我的.mp3"
+  }
+]

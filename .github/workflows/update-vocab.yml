@@ -22,15 +22,21 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install openpyxl
+        run: pip install openpyxl gTTS
 
       - name: Convert Excel to JSON
         run: python convert_excel_to_json.py vocab_data.xlsx data/vocab.json
 
-      - name: Commit updated vocab.json
+      - name: Generate missing audio files
+        run: python generate_audio.py --json data/vocab.json --field hanzi --outdir assets/audio --delay 0.2
+
+      - name: Fill Audio column back into Excel and JSON
+        run: python update_audio_column.py
+
+      - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/vocab.json
-          git diff --cached --quiet && echo "Không có thay đổi" || git commit -m "Tu dong cap nhat vocab.json tu Excel"
+          git add data/vocab.json vocab_data.xlsx assets/audio
+          git diff --cached --quiet && echo "Không có thay đổi" || git commit -m "Tu dong cap nhat vocab.json va audio tu Excel"
           git push
