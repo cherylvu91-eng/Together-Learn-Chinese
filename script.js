@@ -75,31 +75,22 @@ function renderList() {
         (w.hsk ? '<span class="hsk-badge">HSK ' + w.hsk + '</span>' : "") +
         '<div class="hanzi">' + w.hanzi + '</div>' +
         '<div class="pinyin">' + (w.pinyin || "") + '</div>' +
-        (w.hanviet ? '<div class="hanviet">' + w.hanviet + '</div>' : "") +
         '<div class="nghia">' + (w.nghia || "") + '</div>' +
-        (w.loai_tu ? '<span class="loai">' + w.loai_tu + '</span>' : "") +
-        (w.vidu ? '<div class="vidu">' + w.vidu + '</div>' : "") +
-        (w.audio ? '<button class="audio-btn" data-audio="' + w.audio + '">Phat am</button>' : "") +
         '</div>'
       );
     })
     .join("");
 
   document.querySelectorAll(".vocab-card").forEach((card) => {
-    card.addEventListener("click", (e) => {
-      if (e.target.classList.contains("audio-btn")) return;
+    card.addEventListener("click", () => {
       const hanzi = card.dataset.hanzi;
-      openWriterTab(hanzi);
+      openVocabModal(hanzi);
     });
   });
+}
 
-  document.querySelectorAll(".audio-btn").forEach((btn) => {
-    btn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      const file = btn.dataset.audio;
-      playAudio(file);
-    });
-  });
+function findVocabByHanzi(hanzi) {
+  return VOCAB.find((w) => w.hanzi === hanzi);
 }
 
 function playAudio(fileName) {
@@ -113,6 +104,67 @@ function playAudio(fileName) {
 searchInput.addEventListener("input", renderList);
 hskFilter.addEventListener("change", renderList);
 
+// ============ MODAL CHI TIET TU VUNG (TAB 1) ============
+const vocabModal = document.getElementById("vocabModal");
+const modalHanzi = document.getElementById("modalHanzi");
+const modalPinyin = document.getElementById("modalPinyin");
+const modalHanviet = document.getElementById("modalHanviet");
+const modalNghia = document.getElementById("modalNghia");
+const modalViduBlock = document.getElementById("modalViduBlock");
+const modalVidu = document.getElementById("modalVidu");
+const modalAudioBtn = document.getElementById("modalAudioBtn");
+const modalClose = document.getElementById("modalClose");
+const modalWriterBtn = document.getElementById("modalWriterBtn");
+const modalWriterTarget = document.getElementById("modalWriterTarget");
+
+function openVocabModal(hanzi) {
+  const w = findVocabByHanzi(hanzi);
+  if (!w) return;
+
+  modalHanzi.textContent = w.hanzi;
+  modalPinyin.textContent = w.pinyin || "";
+  modalHanviet.textContent = w.hanviet ? w.hanviet.toUpperCase() : "";
+  modalHanviet.style.display = w.hanviet ? "block" : "none";
+  modalNghia.textContent = w.nghia || "";
+
+  if (w.vidu) {
+    modalViduBlock.style.display = "block";
+    modalVidu.textContent = w.vidu;
+  } else {
+    modalViduBlock.style.display = "none";
+  }
+
+  if (w.audio) {
+    modalAudioBtn.style.display = "inline-block";
+    modalAudioBtn.dataset.audio = w.audio;
+  } else {
+    modalAudioBtn.style.display = "none";
+  }
+
+  modalWriterTarget.innerHTML = "";
+  vocabModal.classList.add("active");
+}
+
+function closeVocabModal() {
+  vocabModal.classList.remove("active");
+  modalWriterTarget.innerHTML = "";
+}
+
+modalClose.addEventListener("click", closeVocabModal);
+
+vocabModal.addEventListener("click", (e) => {
+  if (e.target === vocabModal) closeVocabModal();
+});
+
+modalAudioBtn.addEventListener("click", () => {
+  const file = modalAudioBtn.dataset.audio;
+  if (file) playAudio(file);
+});
+
+modalWriterBtn.addEventListener("click", () => {
+  drawHanzi(modalHanzi.textContent, modalWriterTarget);
+});
+
 // ============ TAB 2: FLASHCARD ============
 let flashList = [];
 let flashIndex = 0;
@@ -121,10 +173,11 @@ let flashShowingBack = false;
 const flashHskFilter = document.getElementById("flashHskFilter");
 const flashcardEl = document.getElementById("flashcard");
 const flashProgress = document.getElementById("flashProgress");
+const flashLevelScreen = document.getElementById("flashLevelScreen");
+const flashStudyScreen = document.getElementById("flashStudyScreen");
 
 function setupFlashcards() {
   buildFlashList();
-  renderFlashcard();
 }
 
 function buildFlashList() {
@@ -142,7 +195,7 @@ function renderFlashcard() {
     return;
   }
   const w = flashList[flashIndex];
-  flashProgress.textContent = (flashIndex + 1) + " / " + flashList.length;
+  flashProgress.textContent = "The " + (flashIndex + 1) + " / " + flashList.length;
 
   if (!flashShowingBack) {
     flashcardEl.innerHTML = '<div class="flashcard-face flashcard-front"><div class="flash-hanzi">' + w.hanzi + '</div></div>';
@@ -156,7 +209,7 @@ function renderFlashcard() {
   }
 }
 
-document.getElementById("flashFlip").addEventListener("click", () => {
+document.getElementById("flashFlip") && document.getElementById("flashFlip").addEventListener("click", () => {
   flashShowingBack = !flashShowingBack;
   renderFlashcard();
 });
@@ -180,15 +233,40 @@ document.getElementById("flashNext").addEventListener("click", () => {
   renderFlashcard();
 });
 
+document.getElementById("flashShuffle").addEventListener("click", () => {
+  if (flashList.length === 0) return;
+  flashList = shuffle(flashList);
+  flashIndex = 0;
+  flashShowingBack = false;
+  renderFlashcard();
+});
+
+document.getElementById("flashChangeLevel").addEventListener("click", () => {
+  flashStudyScreen.style.display = "none";
+  flashLevelScreen.style.display = "block";
+});
+
 flashHskFilter.addEventListener("change", () => {
   buildFlashList();
   renderFlashcard();
+});
+
+flashLevelScreen.querySelectorAll(".level-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    flashHskFilter.value = btn.dataset.level;
+    buildFlashList();
+    flashLevelScreen.style.display = "none";
+    flashStudyScreen.style.display = "block";
+    renderFlashcard();
+  });
 });
 
 // ============ TAB 3: TRAC NGHIEM ============
 const quizHskFilter = document.getElementById("quizHskFilter");
 const quizArea = document.getElementById("quizArea");
 const quizScoreEl = document.getElementById("quizScore");
+const quizLevelScreen = document.getElementById("quizLevelScreen");
+const quizStudyScreen = document.getElementById("quizStudyScreen");
 let quizQuestions = [];
 let quizIndex = 0;
 let quizScore = 0;
@@ -266,6 +344,20 @@ function renderQuizQuestion() {
 
 document.getElementById("quizStart").addEventListener("click", buildQuiz);
 
+document.getElementById("quizChangeLevel").addEventListener("click", () => {
+  quizStudyScreen.style.display = "none";
+  quizLevelScreen.style.display = "block";
+});
+
+quizLevelScreen.querySelectorAll(".level-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    quizHskFilter.value = btn.dataset.level;
+    quizLevelScreen.style.display = "none";
+    quizStudyScreen.style.display = "block";
+    buildQuiz();
+  });
+});
+
 // ============ TAB 4: HANZI WRITER (XEM NET CHU) ============
 const writerInput = document.getElementById("writerInput");
 const writerTarget = document.getElementById("writerTarget");
@@ -276,21 +368,22 @@ function openWriterTab(hanzi) {
   document.querySelector('.tab-btn[data-tab="writer"]').classList.add("active");
   document.getElementById("tab-writer").classList.add("active");
   writerInput.value = hanzi;
-  drawHanzi(hanzi);
+  drawHanzi(hanzi, writerTarget);
 }
 
-function drawHanzi(hanzi) {
-  writerTarget.innerHTML = "";
+function drawHanzi(hanzi, targetEl) {
+  const container = targetEl || writerTarget;
+  container.innerHTML = "";
   if (!hanzi) return;
   const firstChar = hanzi.trim()[0];
   if (!firstChar) return;
 
   const el = document.createElement("div");
-  el.id = "hanzi-writer-target";
-  writerTarget.appendChild(el);
+  el.id = "hanzi-writer-target-" + Date.now();
+  container.appendChild(el);
 
   try {
-    HanziWriter.create("hanzi-writer-target", firstChar, {
+    HanziWriter.create(el.id, firstChar, {
       width: 220,
       height: 220,
       padding: 10,
@@ -299,16 +392,16 @@ function drawHanzi(hanzi) {
       delayBetweenStrokes: 300
     }).animateCharacter();
   } catch (e) {
-    writerTarget.innerHTML = "<p>Khong tim thay du lieu net chu cho ky tu nay.</p>";
+    container.innerHTML = "<p>Khong tim thay du lieu net chu cho ky tu nay.</p>";
   }
 }
 
 document.getElementById("writerBtn").addEventListener("click", () => {
-  drawHanzi(writerInput.value);
+  drawHanzi(writerInput.value, writerTarget);
 });
 
 writerInput.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") drawHanzi(writerInput.value);
+  if (e.key === "Enter") drawHanzi(writerInput.value, writerTarget);
 });
 
 // ============ TAB 5: CAU DAM THOAI ============

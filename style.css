@@ -1,12 +1,12 @@
 :root {
-  --red: #c0392b;
-  --red-light: #fdecea;
-  --gold: #d4a017;
+  --red: #c0533f;
+  --red-light: #fbe9e4;
+  --gold: #c98a3e;
   --text: #2c2c2c;
-  --muted: #757575;
-  --bg: #fffaf5;
+  --muted: #8a7a6d;
+  --bg: #faf6f0;
   --card-bg: #ffffff;
-  --border: #eaddd0;
+  --border: #e8ddd0;
 }
 
 * { box-sizing: border-box; }
@@ -19,21 +19,46 @@ body {
 }
 
 .site-header {
-  background: linear-gradient(135deg, var(--red), #922b21);
-  color: white;
-  padding: 28px 20px 20px;
+  background: #f3e9dc;
+  color: var(--text);
+  padding: 20px 20px;
   text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.logo-box {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 12px;
+  background: var(--red);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .site-header h1 {
   margin: 0 0 4px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  text-align: left;
+  color: var(--text);
 }
 
 .subtitle {
   margin: 0;
-  opacity: 0.9;
-  font-size: 0.95rem;
+  opacity: 0.75;
+  font-size: 0.9rem;
+  text-align: left;
 }
 
 .tabs {
@@ -53,8 +78,8 @@ body {
   border: 1px solid var(--border);
   background: white;
   color: var(--text);
-  padding: 8px 16px;
-  border-radius: 20px;
+  padding: 8px 18px;
+  border-radius: 999px;
   cursor: pointer;
   font-size: 0.9rem;
   transition: 0.15s;
@@ -118,65 +143,62 @@ select {
 .vocab-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
+  border-radius: 14px;
+  padding: 18px 16px;
   cursor: pointer;
   transition: 0.15s;
+  position: relative;
+  text-align: center;
 }
 
 .vocab-card:hover {
   border-color: var(--red);
-  box-shadow: 0 4px 12px rgba(192,57,43,0.1);
+  box-shadow: 0 4px 12px rgba(192,83,63,0.12);
+  transform: translateY(-2px);
 }
 
 .vocab-card .hanzi {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 600;
-  color: var(--red);
+  color: var(--text);
+  margin-top: 10px;
 }
 
 .vocab-card .pinyin {
   color: var(--gold);
   font-size: 0.95rem;
-  margin: 2px 0;
+  margin: 4px 0;
+  font-style: italic;
 }
 
 .vocab-card .hanviet {
-  color: var(--muted);
-  font-style: italic;
-  font-size: 0.85rem;
+  display: none;
 }
 
 .vocab-card .nghia {
   margin-top: 6px;
   font-size: 0.95rem;
+  color: var(--text);
 }
 
 .vocab-card .loai {
-  display: inline-block;
-  margin-top: 8px;
-  font-size: 0.75rem;
-  background: var(--red-light);
-  color: var(--red);
-  padding: 2px 8px;
-  border-radius: 10px;
+  display: none;
 }
 
 .vocab-card .hsk-badge {
-  float: right;
-  font-size: 0.75rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  float: none;
+  font-size: 0.7rem;
   background: var(--gold);
   color: white;
   padding: 2px 8px;
-  border-radius: 10px;
+  border-radius: 999px;
 }
 
 .vocab-card .vidu {
-  margin-top: 8px;
-  font-size: 0.85rem;
-  color: var(--muted);
-  border-top: 1px dashed var(--border);
-  padding-top: 6px;
+  display: none;
 }
 
 .audio-btn {
@@ -184,8 +206,8 @@ select {
   border: 1px solid var(--gold);
   background: white;
   color: var(--gold);
-  border-radius: 8px;
-  padding: 4px 10px;
+  border-radius: 999px;
+  padding: 4px 12px;
   cursor: pointer;
   font-size: 0.8rem;
 }
@@ -243,7 +265,7 @@ button {
   background: var(--red);
   color: white;
   padding: 8px 18px;
-  border-radius: 8px;
+  border-radius: 999px;
   cursor: pointer;
   font-size: 0.9rem;
 }
@@ -253,6 +275,149 @@ button:hover { opacity: 0.9; }
 #flashPrev, #flashNext {
   background: white;
   color: var(--red);
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--red);
+  border: 1px solid var(--red);
+}
+
+/* Level selection screen */
+.level-screen {
+  max-width: 520px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.level-title {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  color: var(--text);
+}
+
+.level-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 18px;
+}
+
+.level-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.level-btn {
+  background: white;
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 999px;
+  padding: 10px 20px;
+}
+
+.level-btn:hover {
+  background: var(--red);
+  color: white;
+}
+
+/* Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(44,44,44,0.5);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-box {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 28px 24px;
+  max-width: 420px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 1.4rem;
+  padding: 0;
+  line-height: 1;
+  width: auto;
+}
+
+.modal-hanzi-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.modal-hanzi {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
+}
+
+.modal-audio-btn {
+  margin-top: 0;
+}
+
+.modal-pinyin {
+  text-align: center;
+  color: var(--gold);
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
+
+.modal-hanviet {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--red);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.modal-label {
+  margin-top: 18px;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.modal-value {
+  margin-top: 4px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.modal-writer-btn {
+  display: block;
+  margin: 20px auto 0;
 }
 
 /* Quiz */

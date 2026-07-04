@@ -9,8 +9,13 @@
 <body>
 
 <header class="site-header">
-  <h1>汉语学习 · Together Learn Chinese</h1>
-  <p class="subtitle">Tra cứu từ vựng HSK cho học sinh</p>
+  <div class="header-inner">
+    <div class="logo-box">汉</div>
+    <div>
+      <h1>Together Learn Chinese</h1>
+      <p class="subtitle">Tra cứu từ vựng HSK cho học sinh</p>
+    </div>
+  </div>
 </header>
 
 <nav class="tabs">
@@ -43,48 +48,83 @@
 
   <!-- TAB 2: FLASHCARD -->
   <section id="tab-flashcard" class="tab-content">
-    <div class="flashcard-controls">
-      <select id="flashHskFilter">
-        <option value="all">Tất cả cấp độ</option>
-        <option value="1">HSK 1</option>
-        <option value="2">HSK 2</option>
-        <option value="3">HSK 3</option>
-        <option value="4">HSK 4</option>
-        <option value="5">HSK 5</option>
-        <option value="6">HSK 6</option>
-      </select>
-      <span id="flashProgress"></span>
-    </div>
-    <div class="flashcard-wrap">
-      <div id="flashcard" class="flashcard">
-        <div class="flashcard-face flashcard-front">
-          <div id="flashHanzi" class="flash-hanzi"></div>
-        </div>
+    <select id="flashHskFilter" style="display:none;">
+      <option value="all">Tất cả cấp độ</option>
+      <option value="1">HSK 1</option>
+      <option value="2">HSK 2</option>
+      <option value="3">HSK 3</option>
+      <option value="4">HSK 4</option>
+      <option value="5">HSK 5</option>
+      <option value="6">HSK 6</option>
+    </select>
+
+    <div id="flashLevelScreen" class="level-screen">
+      <h2 class="level-title">Chọn cấp độ để bắt đầu ôn tập:</h2>
+      <div class="level-buttons">
+        <button class="level-btn" data-level="all">Tất cả</button>
+        <button class="level-btn" data-level="1">HSK1</button>
+        <button class="level-btn" data-level="2">HSK2</button>
+        <button class="level-btn" data-level="3">HSK3</button>
+        <button class="level-btn" data-level="4">HSK4</button>
+        <button class="level-btn" data-level="5">HSK5</button>
+        <button class="level-btn" data-level="6">HSK6</button>
       </div>
     </div>
-    <div class="flashcard-nav">
-      <button id="flashPrev">‹ Trước</button>
-      <button id="flashFlip">Lật thẻ</button>
-      <button id="flashNext">Sau ›</button>
+
+    <div id="flashStudyScreen" class="study-screen" style="display:none;">
+      <div class="flashcard-controls">
+        <span id="flashProgress"></span>
+      </div>
+      <div class="flashcard-wrap">
+        <div id="flashcard" class="flashcard">
+          <div class="flashcard-face flashcard-front">
+            <div id="flashHanzi" class="flash-hanzi"></div>
+          </div>
+        </div>
+      </div>
+      <div class="flashcard-nav">
+        <button id="flashPrev">&larr;</button>
+        <button id="flashShuffle" class="btn-secondary">Xáo trộn</button>
+        <button id="flashChangeLevel" class="btn-secondary">Đổi cấp độ</button>
+        <button id="flashNext">&rarr;</button>
+      </div>
     </div>
   </section>
 
   <!-- TAB 3: TRẮC NGHIỆM -->
   <section id="tab-quiz" class="tab-content">
-    <div class="quiz-controls">
-      <select id="quizHskFilter">
-        <option value="all">Tất cả cấp độ</option>
-        <option value="1">HSK 1</option>
-        <option value="2">HSK 2</option>
-        <option value="3">HSK 3</option>
-        <option value="4">HSK 4</option>
-        <option value="5">HSK 5</option>
-        <option value="6">HSK 6</option>
-      </select>
-      <button id="quizStart">Bắt đầu / Làm lại</button>
+    <select id="quizHskFilter" style="display:none;">
+      <option value="all">Tất cả cấp độ</option>
+      <option value="1">HSK 1</option>
+      <option value="2">HSK 2</option>
+      <option value="3">HSK 3</option>
+      <option value="4">HSK 4</option>
+      <option value="5">HSK 5</option>
+      <option value="6">HSK 6</option>
+    </select>
+
+    <div id="quizLevelScreen" class="level-screen">
+      <h2 class="level-title">Chọn cấp độ để bắt đầu:</h2>
+      <p class="level-desc">Chọn nghĩa đúng cho mỗi từ. Mỗi lượt gồm 10 câu ngẫu nhiên.</p>
+      <div class="level-buttons">
+        <button class="level-btn" data-level="all">Tất cả</button>
+        <button class="level-btn" data-level="1">HSK1</button>
+        <button class="level-btn" data-level="2">HSK2</button>
+        <button class="level-btn" data-level="3">HSK3</button>
+        <button class="level-btn" data-level="4">HSK4</button>
+        <button class="level-btn" data-level="5">HSK5</button>
+        <button class="level-btn" data-level="6">HSK6</button>
+      </div>
     </div>
-    <div id="quizArea" class="quiz-area"></div>
-    <p id="quizScore" class="quiz-score"></p>
+
+    <div id="quizStudyScreen" class="study-screen" style="display:none;">
+      <div class="quiz-controls">
+        <button id="quizChangeLevel" class="btn-secondary">Đổi cấp độ</button>
+        <button id="quizStart" class="btn-secondary">Làm lại</button>
+      </div>
+      <div id="quizArea" class="quiz-area"></div>
+      <p id="quizScore" class="quiz-score"></p>
+    </div>
   </section>
 
   <!-- TAB 4: XEM NÉT CHỮ -->
@@ -122,6 +162,26 @@
 </footer>
 
 <audio id="audioPlayer"></audio>
+
+<div id="vocabModal" class="modal-overlay">
+  <div class="modal-box">
+    <button id="modalClose" class="modal-close">&times;</button>
+    <div class="modal-hanzi-row">
+      <div id="modalHanzi" class="modal-hanzi"></div>
+      <button id="modalAudioBtn" class="audio-btn modal-audio-btn" data-audio="">Phát âm</button>
+    </div>
+    <div id="modalPinyin" class="modal-pinyin"></div>
+    <div id="modalHanviet" class="modal-hanviet"></div>
+    <div class="modal-label">NGHĨA</div>
+    <div id="modalNghia" class="modal-value"></div>
+    <div id="modalViduBlock">
+      <div class="modal-label">VÍ DỤ</div>
+      <div id="modalVidu" class="modal-value"></div>
+    </div>
+    <button id="modalWriterBtn" class="btn-secondary modal-writer-btn">Xem cách viết</button>
+    <div id="modalWriterTarget" class="writer-target"></div>
+  </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
 <script src="script.js"></script>
