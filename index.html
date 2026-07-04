@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Together Learn Chinese - Tra cứu HSK</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>汉语学习 · Together Learn Chinese</h1>
+  <p class="subtitle">Tra cứu từ vựng HSK cho học sinh</p>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="list">Danh sách</button>
+  <button class="tab-btn" data-tab="flashcard">Flashcard</button>
+  <button class="tab-btn" data-tab="quiz">Trắc nghiệm</button>
+  <button class="tab-btn" data-tab="writer">Xem nét chữ</button>
+</nav>
+
+<main>
+
+  <!-- TAB 1: DANH SÁCH + TÌM KIẾM + LỌC -->
+  <section id="tab-list" class="tab-content active">
+    <div class="toolbar">
+      <input type="text" id="searchInput" placeholder="Tìm theo chữ Hán / pinyin / nghĩa...">
+      <select id="hskFilter">
+        <option value="all">Tất cả cấp độ</option>
+        <option value="1">HSK 1</option>
+        <option value="2">HSK 2</option>
+        <option value="3">HSK 3</option>
+        <option value="4">HSK 4</option>
+        <option value="5">HSK 5</option>
+        <option value="6">HSK 6</option>
+      </select>
+    </div>
+    <p id="resultCount" class="result-count"></p>
+    <div id="cardGrid" class="card-grid"></div>
+  </section>
+
+  <!-- TAB 2: FLASHCARD -->
+  <section id="tab-flashcard" class="tab-content">
+    <div class="flashcard-controls">
+      <select id="flashHskFilter">
+        <option value="all">Tất cả cấp độ</option>
+        <option value="1">HSK 1</option>
+        <option value="2">HSK 2</option>
+        <option value="3">HSK 3</option>
+        <option value="4">HSK 4</option>
+        <option value="5">HSK 5</option>
+        <option value="6">HSK 6</option>
+      </select>
+      <span id="flashProgress"></span>
+    </div>
+    <div class="flashcard-wrap">
+      <div id="flashcard" class="flashcard">
+        <div class="flashcard-face flashcard-front">
+          <div id="flashHanzi" class="flash-hanzi"></div>
+        </div>
+      </div>
+    </div>
+    <div class="flashcard-nav">
+      <button id="flashPrev">‹ Trước</button>
+      <button id="flashFlip">Lật thẻ</button>
+      <button id="flashNext">Sau ›</button>
+    </div>
+  </section>
+
+  <!-- TAB 3: TRẮC NGHIỆM -->
+  <section id="tab-quiz" class="tab-content">
+    <div class="quiz-controls">
+      <select id="quizHskFilter">
+        <option value="all">Tất cả cấp độ</option>
+        <option value="1">HSK 1</option>
+        <option value="2">HSK 2</option>
+        <option value="3">HSK 3</option>
+        <option value="4">HSK 4</option>
+        <option value="5">HSK 5</option>
+        <option value="6">HSK 6</option>
+      </select>
+      <button id="quizStart">Bắt đầu / Làm lại</button>
+    </div>
+    <div id="quizArea" class="quiz-area"></div>
+    <p id="quizScore" class="quiz-score"></p>
+  </section>
+
+  <!-- TAB 4: XEM NÉT CHỮ -->
+  <section id="tab-writer" class="tab-content">
+    <div class="writer-controls">
+      <input type="text" id="writerInput" placeholder="Nhập 1 chữ Hán để xem thứ tự nét, ví dụ: 你">
+      <button id="writerBtn">Xem nét chữ</button>
+    </div>
+    <div id="writerTarget" class="writer-target"></div>
+    <p class="writer-hint">Gõ một chữ Hán rồi bấm "Xem nét chữ", hoặc bấm vào chữ Hán ở tab Danh sách.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Tài liệu học tập nội bộ · Cập nhật từ vựng trong file <code>vocab_data.xlsx</code></p>
+</footer>
+
+<audio id="audioPlayer"></audio>
+
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
